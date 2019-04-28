@@ -1,9 +1,9 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2017-05-22 22:25:33" Modified_Date="2017-10-11 13:22:37" Creator="Patrick Irvin" Comments="" ID="7eac4fb80d46351704dafb69d2bdec2f">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2017-05-22 22:25:33" Modified_Date="2019-04-28 11:23:48" Creator="Patrick Irvin" Comments="" ID="2eb4d95cf0a05818a605026cc3df1f4e">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_graph_utilities</Package_File_Name>
-    <Library_Version>1.0.1.7</Library_Version>
+    <Library_Version>1.1.0.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
-    <Library_Source_Folder>src</Library_Source_Folder>
+    <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>Q:\utilities\Graph</Library_Output_Folder>
     <Company_Name>LevyLab</Company_Name>
     <Library_Summary/>
@@ -32,7 +32,8 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>- new LevyLab function category</Release_Notes>
+      <Release_Notes>- organize in project.
+- new algorithm for interpolating color table</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -88,6 +89,11 @@
         <Preserve_Hierarchy>false</Preserve_Hierarchy>
         <Path/>
       </Project_Provider>
+      <QuickDrop_Plugins>
+        <LLB>false</LLB>
+        <Preserve_Hierarchy>true</Preserve_Hierarchy>
+        <Path/>
+      </QuickDrop_Plugins>
     </Destinations>
     <Source_Files>
       <Destination_Overrides>
@@ -174,7 +180,7 @@
   <Library_Palette_Definition>
     <Functions_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
-      <Name>Graph</Name>
+      <Name/>
       <View_Format>Icons</View_Format>
       <Size>
         <Height_Row>2</Height_Row>
@@ -202,7 +208,7 @@
           <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\Average xy graphs.vi</Path>
+        <Path>Average xy graphs.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -216,7 +222,7 @@
           <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\BuildXYGraph.vi</Path>
+        <Path>BuildXYGraph.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -230,7 +236,7 @@
           <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\Convert XY to polar graph.vi</Path>
+        <Path>Convert XY to polar graph.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -244,7 +250,21 @@
           <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\Example Graph utls.vi</Path>
+        <Path>Example Graph utls.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>GraphsSandbox.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>5</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>GraphsSandbox.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -255,10 +275,10 @@
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>1</Row>
-          <Column>5</Column>
+          <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\IntensityScales.vi</Path>
+        <Path>IntensityScales.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -268,11 +288,11 @@
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
-          <Row>1</Row>
-          <Column>6</Column>
+          <Row>2</Row>
+          <Column>1</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\IntensityScales_v2.vi</Path>
+        <Path>IntensityScales_v2.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -283,10 +303,10 @@
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>2</Row>
-          <Column>1</Column>
+          <Column>2</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\Make Color Table.vi</Path>
+        <Path>Make Color Table.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -297,10 +317,10 @@
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>2</Row>
-          <Column>2</Column>
+          <Column>3</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\OffsetMultiplier.vi</Path>
+        <Path>OffsetMultiplier.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -311,10 +331,10 @@
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>2</Row>
-          <Column>3</Column>
+          <Column>4</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\View Complex Impedance.vi</Path>
+        <Path>View Complex Impedance.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -325,10 +345,10 @@
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>2</Row>
-          <Column>4</Column>
+          <Column>5</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\XYArray from OffsetMultiplier.vi</Path>
+        <Path>XYArray from OffsetMultiplier.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -339,13 +359,13 @@
         <is_Merge_VI>false</is_Merge_VI>
         <Position>
           <Row>2</Row>
-          <Column>5</Column>
+          <Column>6</Column>
         </Position>
         <Icon>00000000</Icon>
-        <Path>src\XYGraphAddScaler.vi</Path>
+        <Path>XYGraphAddScaler.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>41A4DFAE0AA55EEBA7793EA36507A154</GUID>
+      <GUID>9BBA89A1B35C4896D418B3F7F180DFF0</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
