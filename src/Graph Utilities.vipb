@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2017-05-22 22:25:33" Modified_Date="2019-04-28 11:23:48" Creator="Patrick Irvin" Comments="" ID="2eb4d95cf0a05818a605026cc3df1f4e">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2017-05-22 22:25:33" Modified_Date="2019-04-28 11:28:47" Creator="Patrick Irvin" Comments="" ID="3d396e210eb7b73702aa93187c6aae15">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_graph_utilities</Package_File_Name>
-    <Library_Version>1.1.0.7</Library_Version>
+    <Library_Version>1.1.0.8</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>Q:\utilities\Graph</Library_Output_Folder>
@@ -112,6 +112,9 @@
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
+      <Exclusions>
+        <Path>GraphsSandbox.vi</Path>
+      </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath/>
     <Licensing_and_Activation>
@@ -365,7 +368,7 @@
         <Path>XYGraphAddScaler.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9BBA89A1B35C4896D418B3F7F180DFF0</GUID>
+      <GUID>16FF66BE0F6B314F89F31370698BE1D5</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
