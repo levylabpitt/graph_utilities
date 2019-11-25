@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="16008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -10,17 +11,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="BuildXYGraph.vi" Type="VI" URL="../BuildXYGraph.vi"/>
-		<Item Name="Convert XY to polar graph.vi" Type="VI" URL="../Convert XY to polar graph.vi"/>
 		<Item Name="Example Graph utls.vi" Type="VI" URL="../Example Graph utls.vi"/>
-		<Item Name="Graph Utilities.vipb" Type="Document" URL="../Graph Utilities.vipb"/>
 		<Item Name="GraphsSandbox.vi" Type="VI" URL="../GraphsSandbox.vi"/>
-		<Item Name="IntensityScales.vi" Type="VI" URL="../IntensityScales.vi"/>
-		<Item Name="IntensityScales_v2.vi" Type="VI" URL="../IntensityScales_v2.vi"/>
-		<Item Name="Make Color Table.vi" Type="VI" URL="../Make Color Table.vi"/>
-		<Item Name="OffsetMultiplier.vi" Type="VI" URL="../OffsetMultiplier.vi"/>
-		<Item Name="View Complex Impedance.vi" Type="VI" URL="../View Complex Impedance.vi"/>
-		<Item Name="XYArray from OffsetMultiplier.vi" Type="VI" URL="../XYArray from OffsetMultiplier.vi"/>
+		<Item Name="Graph Utilities.vipb" Type="Document" URL="../Graph Utilities.vipb"/>
+		<Item Name="graph_utilities.lvlib" Type="Library" URL="../graph_utilities.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array Size(s)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array Size(s)__ogtk.vi"/>
