@@ -10,6 +10,7 @@ Utilities for working with XY graphs and Intensity graphs in LabVIEW.
 Download and install using the VI Package Manager as described [here](https://levylabpitt.github.io/)
 
 ## Getting Started
+### Creating a graph reference
 - Drop a graph control onto the front panel
 
 ![Create-Graph-FP-1](images/Create-Graph-FP-1.png)
@@ -26,7 +27,14 @@ Download and install using the VI Package Manager as described [here](https://le
 
 ![Graph-Reference](images/Graph-Reference.png)
 
-- Call “Write Intensity Graph.vi” and “Write XY Graph.vi” to put the reference onto the Graph class wire
+### Call “Write Intensity Graph.vi” and “Write XY Graph.vi” to put the graph reference onto the Graph Utilities class wire
+- Write Intensity Graph ref.vi: Write control references to the class wire.
+  - "Intensity Graph" is the normal target for reading and writing.
+  - "Intensity Graph (Control)" is only used to read the cursor position of the "Control" Intensity Graph.
+
+- Write XY Graph ref.vi: Write control references to the class wire.
+  - "XY Graph" is the normal target for reading and writing.
+  - "XY Graph (Control)" is reserved for future use.
 
 ![subVIs-1-Accessors](images/subVIs-1-Accessors.png)
 
