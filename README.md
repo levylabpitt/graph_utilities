@@ -10,36 +10,52 @@ Utilities for working with XY graphs and Intensity graphs in LabVIEW.
 Download and install using the VI Package Manager as described [here](https://levylabpitt.github.io/)
 
 ## Getting Started
-### Drop a graph control onto the front panel
+- Drop a graph control onto the front panel
+
 ![Create-Graph-FP-1](images/Create-Graph-FP-1.png)
 
 ![Create-Graph-FP-2](images/Create-Graph-FP-2.png)
 
 ![Create-Graph-BD](images/Create-Graph-BD.png)
 
-### Right click on the graph and choose “Create: Reference”
+- Right click on the graph and choose “Create: Reference”
 
-### Now you have a graph reference 
+![Create-Graph-Reference](images/Create-Graph-Reference.png)
 
-### Call “Write Intensity Graph.vi” and “Write XY Graph.vi” to put the reference onto the Graph class wire
+- Now you have a graph reference
+
+![Graph-Reference](images/Graph-Reference.png)
+
+- Call “Write Intensity Graph.vi” and “Write XY Graph.vi” to put the reference onto the Graph class wire
+
+![subVIs-1-Accessors](images/subVIs-1-Accessors.png)
 
 ## Usage
 ### /Intensity Graph/
 Primitives for working with Intensity Graphs.
 
+![subVIs-2-Intensity](images/subVIs-2-Intensity.png)
+
 ### /XY Graph/
 Primitives for working with XY Graphs.
+
+![subVIs-3-XY](images/subVIs-3-XY.png)
 
 ### /API/
 Higher-Level VIs. For example: convert an Intensity Graph into a family of plots on an XY Graph. And vice versa. Also easily take Linecuts with width on an Intensity Graph.
 
-### /subVIs/
-helper VIs.
+![subVIs-4-API](images/subVIs-4-API.png)
 
+### /subVIs/
+helper VIs
+
+![subVIs-5](images/subVIs-5.png)
 
 ## Examples
 - Intensity Graph to XY Graph Example.vi: Stand alone VI for converting an Intensity Graph in XY plots. Converts both horizontally and vertically.
 - Linecut Example.vi: Stand alone VI for taking linecuts of an Intensity Graph. This VI uses one Intensity Graph as a cursor control and another Intensity Graph as a cursor target
+
+![Examples](images/Examples.png)
 
 ## Contributing
 Please contact [Patrick Irvin](p.irvin@levylab.org)
