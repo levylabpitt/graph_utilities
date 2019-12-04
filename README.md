@@ -1,4 +1,4 @@
-# LevyLab Graph Utilities
+# Graph Utilities
 Utilities for working with XY graphs and Intensity graphs in LabVIEW. 
 
 - VIs are contained in the class graph_utilities.lvclass
