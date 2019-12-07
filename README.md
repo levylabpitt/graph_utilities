@@ -9,6 +9,8 @@ Utilities for working with XY graphs and Intensity graphs in LabVIEW.
 ## Installation
 Download and install using the VI Package Manager as described [here](https://levylabpitt.github.io/)
 
+Video tutorial [here](https://drive.google.com/file/d/1h8PIyvwJkJ6Sz3K5_MESZto-a7zrblKM/view?usp=drivesdk)
+
 ## Getting Started
 ### Creating a graph reference
 - Drop a graph control onto the front panel
