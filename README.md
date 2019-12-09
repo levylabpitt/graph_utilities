@@ -11,6 +11,7 @@ Download and install using the VI Package Manager as described [here](https://le
 
 ## Getting Started
 Video tutorial [here](https://drive.google.com/file/d/1h8PIyvwJkJ6Sz3K5_MESZto-a7zrblKM/view?usp=drivesdk)
+[YouTube link](https://youtu.be/2O9y04X52aU)
 
 ### Creating a graph reference
 - Drop a graph control onto the front panel
