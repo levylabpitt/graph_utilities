@@ -1,4 +1,4 @@
-# LevyLab Graph Utilities
+# Graph Utilities
 Utilities for working with XY graphs and Intensity graphs in LabVIEW. 
 
 - VIs are contained in the class graph_utilities.lvclass
@@ -10,6 +10,10 @@ Utilities for working with XY graphs and Intensity graphs in LabVIEW.
 Download and install using the VI Package Manager as described [here](https://levylabpitt.github.io/)
 
 ## Getting Started
+Video tutorial [here](https://drive.google.com/file/d/1h8PIyvwJkJ6Sz3K5_MESZto-a7zrblKM/view?usp=drivesdk)
+
+YouTube: [1](https://youtu.be/2O9y04X52aU)
+
 ### Creating a graph reference
 - Drop a graph control onto the front panel
 
