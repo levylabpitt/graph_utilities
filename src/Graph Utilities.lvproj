@@ -15,6 +15,7 @@
 			<Item Name="Graph Utilities.vipb" Type="Document" URL="../../build support/Graph Utilities.vipb"/>
 		</Item>
 		<Item Name="graph_utilities.lvclass" Type="LVClass" URL="../graph_utilities.lvclass"/>
+		<Item Name="Scale Mapping  - Enum.ctl" Type="VI" URL="../Typedefs/Scale Mapping  - Enum.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
