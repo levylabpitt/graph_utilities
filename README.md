@@ -48,15 +48,40 @@ Primitives for working with Intensity Graphs.
 
 ![subVIs-2-Intensity](images/subVIs-2-Intensity.png)
 
+- Get/Set Intensity Graph Value.vi
+- Get/Set Intensity Graph X Label.vi
+- Get/Set Intensity Graph Y Label.vi
+- Get/Set Intensity Graph Z Label.vi
+- Get/Set Intensity Graph X Scale.vi
+- Get/Set Intensity Graph Y Scale.vi
+- Set Intensity Graph Z Color.vi
+- Get Intensity Graph Cursor (Control).vi
+- Set Intensity Graph Cursor.vi
+
 ### /XY Graph/
 Primitives for working with XY Graphs.
 
 ![subVIs-3-XY](images/subVIs-3-XY.png)
 
+- Get/Set XY Graph Value.vi
+- Get/Set XY Graph X Label.vi
+- Get/Set XY Graph Y Label.vi
+- Get/Set XY Graph X Mapping.vi
+- Get/Set XY Graph Y Mapping.vi
+- Get/Set XY Graph Plot Names.vi
+- Set XY Graph Plot Colors.vi
+- Offset XY graph.vi
+
 ### /API/
 Higher-Level VIs. For example: convert an Intensity Graph into a family of plots on an XY Graph. And vice versa. Also easily take Linecuts with width on an Intensity Graph.
 
 ![subVIs-4-API](images/subVIs-4-API.png)
+
+- Intensity Graph Linecut (Horizontal).vi
+- Intensity Graph Linecut (Vertical).vi
+- Intensity Graph to XY Graph (Horizontal).vi
+- Intensity Graph to XY Graph (Vertical).vi
+- XY Graph to Intensity Graph.vi
 
 ### /subVIs/
 helper VIs
