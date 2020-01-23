@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2017-05-22 22:25:33" Modified_Date="2020-01-22 17:33:37" Creator="Patrick Irvin" Comments="" ID="c0a63fa66be88d245a422df4209e074a">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2017-05-22 22:25:33" Modified_Date="2020-01-23 10:47:50" Creator="Patrick Irvin" Comments="" ID="25f5833bbdfffbc1e7330ba58a631e40">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_graph_utilities</Package_File_Name>
-    <Library_Version>2.0.0.2</Library_Version>
+    <Library_Version>2.0.1.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>Q:\utilities\Graph</Library_Output_Folder>
@@ -32,11 +32,15 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[2.0.0.1]
+      <Release_Notes>[2.0.1.2]
 Bug Fixes:
-Issue #1: 
-Issue #2: 
-Issue #3: </Release_Notes>
+- Issue #1: Misc. bug fixes when converting an XY Graph to Intensity Graph
+- Issue #3: Linecut width defaults to 1 pixel if user enters "0"
+
+New Methods:
+- Get/Set XY Graph X (Y) Mapping.vi (Get/Set Linear or Logarithmic XY Scales)
+- Get/Set XY Graph Plot Names.vi
+</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -115,12 +119,6 @@ Issue #3: </Release_Notes>
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
-      <Exclusions>
-        <Path>Examples/Example Graph utls.vi</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Examples/GraphsSandbox.vi</Path>
-      </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath/>
     <Licensing_and_Activation>
@@ -290,7 +288,7 @@ Issue #3: </Release_Notes>
         <Path>..\src\API</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>61F2287834307932B7A171BF857B97ED</GUID>
+      <GUID>4E0C551C6E880F160D162A30FA2AE98F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -339,7 +337,7 @@ Issue #3: </Release_Notes>
         <Path>..\src\Accessors\Write XY Graph ref.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D0194703C25362610CE6D10458082CC9</GUID>
+      <GUID>499FB9E91BCCC49F169DEE4EF20DF729</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -430,7 +428,7 @@ Issue #3: </Release_Notes>
         <Path>..\src\API\Intensity Graph to XY Graph (Vertical).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>42BB0A91D367C46AC54E24F27372F402</GUID>
+      <GUID>CA74F011814BCA577AC0C155DDFF2DB0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -493,7 +491,7 @@ Issue #3: </Release_Notes>
         <Path>..\src\Examples\Linecut Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D8A8B2169D272AF8AC7C601A2D572780</GUID>
+      <GUID>2BE9FFD878C5B443D4F2EFD4992B3ED4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -738,7 +736,7 @@ Issue #3: </Release_Notes>
         <Path>..\src\Accessors\Write Intensity Graph ref.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7C29817956061431E2792D1D5A15E0A0</GUID>
+      <GUID>51A72AFBDD7906742471562B43C1FB0E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -829,7 +827,7 @@ Issue #3: </Release_Notes>
         <Path>..\src\subVIs\Set Intensity Scales (Start and End).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>58560F257C6C1D183BBF2E156D19899E</GUID>
+      <GUID>BCAE6365A56AF55C3FFAB1CF595ED126</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -837,7 +835,7 @@ Issue #3: </Release_Notes>
       <View_Format>Icons</View_Format>
       <Size>
         <Height_Row>4</Height_Row>
-        <Width_Col.>4</Width_Col.>
+        <Width_Col.>5</Width_Col.>
       </Size>
       <_256_Color_Icon>00000506002900000012000000020000000D00FFFFFF000100000000000A0000000800000000002000200028000000B9000000930000000D0007001400180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFF000000000000000000000000FFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF01FFABFFABFF4FFFA5FFA5FF01FF0028000001C30000018F00080007000F001A00180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFF000000000000FFFFFFFFFFFF000000000000FFFFFF000000000000FFFFFFFFFFFF000000000000FFFFFF000000FFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000000000FFFFFFFFFFFF000000FFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000000000FFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFF000000000000FFFFFF000000FFFFFFFFFFFFFFFFFF000000FFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00001FFF60009FFF866CDFFFA4AABFFF94ACBFFF6468BFFF00001FFF002900000012000000020000000D00CCCCFF000100000000000A00000008001900000020002000280000022C000001F8001900040020001C00180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFF6C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C00006C0000FFFFFF6C00006C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FF9AAA26FF92AA55FF9ABA76FF939255FFD91356FF000000FF</_256_Color_Icon>
       <BW_Color_Icon>00000000</BW_Color_Icon>
@@ -976,7 +974,91 @@ Issue #3: </Release_Notes>
         <Path>..\src\Accessors\Write XY Graph ref.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2B2875270E042201CABC176E4D028F32</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Set XY Graph Y Mapping.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>3</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\XY Graph\Set XY Graph Y Mapping.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Get XY Graph Y Mapping.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>3</Row>
+          <Column>5</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\XY Graph\Get XY Graph Y Mapping.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Set XY Graph Plot Names.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>4</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\XY Graph\Set XY Graph Plot Names.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Get XY Graph Plot Names.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>4</Row>
+          <Column>5</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\XY Graph\Get XY Graph Plot Names.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Get XY Graph X Mapping.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>5</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\XY Graph\Get XY Graph X Mapping.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Set XY Graph X Mapping.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\XY Graph\Set XY Graph X Mapping.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>105925A2372FDFFD46B5B5161FD7AAA9</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -1025,7 +1107,7 @@ Issue #3: </Release_Notes>
         <Path>..\src\Typedefs\XY Graph.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>915AA1AFC2328E1E6DE212F73FC757F4</GUID>
+      <GUID>07EA5C74C586F45A86B8CC1259C9683C</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
