@@ -68,7 +68,7 @@ Primitives for working with XY Graphs.
 - Get/Set XY Graph Y Label.vi
 - Get/Set XY Graph X Mapping.vi
 - Get/Set XY Graph Y Mapping.vi
- -Get/Set XY Graph Plot Names.vi
+- Get/Set XY Graph Plot Names.vi
 - Set XY Graph Plot Colors.vi
 - Offset XY graph.vi
 
