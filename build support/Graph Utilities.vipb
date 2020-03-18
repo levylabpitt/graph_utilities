@@ -1,10 +1,10 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2017-05-22 22:25:33" Modified_Date="2020-01-23 10:47:50" Creator="Patrick Irvin" Comments="" ID="25f5833bbdfffbc1e7330ba58a631e40">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2017-05-22 22:25:33" Modified_Date="2020-03-18 13:26:56" Creator="Patrick Irvin" Comments="" ID="681575c1038ebbec52e3dc68e5065c5e">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_graph_utilities</Package_File_Name>
-    <Library_Version>2.0.1.3</Library_Version>
+    <Library_Version>2.0.3.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
-    <Library_Output_Folder>Q:\utilities\Graph</Library_Output_Folder>
+    <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
     <Company_Name>LevyLab</Company_Name>
     <Library_Summary/>
     <Library_License/>
@@ -16,7 +16,12 @@
     <Target>LabVIEW</Target>
   </Library_General_Settings>
   <Advanced_Settings>
-    <Package_Dependencies/>
+    <Package_Dependencies>
+      <External_Dependencies>jki_lib_state_machine &gt;= 2018.0.7.45</External_Dependencies>
+      <External_Dependencies>levylab_lib_xy_utilities &gt;= 1.0.4.5</External_Dependencies>
+      <Direct_Dependencies>jki_lib_state_machine-2018.0.7.45</Direct_Dependencies>
+      <Direct_Dependencies>levylab_lib_xy_utilities-1.0.4.5</Direct_Dependencies>
+    </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
       <Post-Build_VI/>
@@ -32,14 +37,10 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[2.0.1.2]
+      <Release_Notes>[2.0.3.3]
 Bug Fixes:
-- Issue #1: Misc. bug fixes when converting an XY Graph to Intensity Graph
-- Issue #3: Linecut width defaults to 1 pixel if user enters "0"
-
-New Methods:
-- Get/Set XY Graph X (Y) Mapping.vi (Get/Set Linear or Logarithmic XY Scales)
-- Get/Set XY Graph Plot Names.vi
+- Issue #4: Change appearance of class wire
+Update package dependencies
 </Release_Notes>
     </Description>
     <Destinations>
@@ -288,7 +289,7 @@ New Methods:
         <Path>..\src\API</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4E0C551C6E880F160D162A30FA2AE98F</GUID>
+      <GUID>88521B52BD39EE7D4522EA890ACF9679</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -337,7 +338,7 @@ New Methods:
         <Path>..\src\Accessors\Write XY Graph ref.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>499FB9E91BCCC49F169DEE4EF20DF729</GUID>
+      <GUID>10E69A5D856197337998B0B1B54F1872</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -428,7 +429,7 @@ New Methods:
         <Path>..\src\API\Intensity Graph to XY Graph (Vertical).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CA74F011814BCA577AC0C155DDFF2DB0</GUID>
+      <GUID>78A3F671A3A3CB7BC865082AFFE83656</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -491,7 +492,7 @@ New Methods:
         <Path>..\src\Examples\Linecut Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2BE9FFD878C5B443D4F2EFD4992B3ED4</GUID>
+      <GUID>0DEE00B3C2CC71857CE486E36CABEAF7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -736,7 +737,7 @@ New Methods:
         <Path>..\src\Accessors\Write Intensity Graph ref.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>51A72AFBDD7906742471562B43C1FB0E</GUID>
+      <GUID>7857F695A29ADE08042E7D8A1FCF9054</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -827,7 +828,7 @@ New Methods:
         <Path>..\src\subVIs\Set Intensity Scales (Start and End).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BCAE6365A56AF55C3FFAB1CF595ED126</GUID>
+      <GUID>25A028F200385187DA717EB850313621</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1058,7 +1059,7 @@ New Methods:
         <Path>..\src\XY Graph\Set XY Graph X Mapping.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>105925A2372FDFFD46B5B5161FD7AAA9</GUID>
+      <GUID>6785F899DC476D273F97D2CDD4377575</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -1107,7 +1108,7 @@ New Methods:
         <Path>..\src\Typedefs\XY Graph.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>07EA5C74C586F45A86B8CC1259C9683C</GUID>
+      <GUID>46BCB85110F568E0C69FE60621AF2256</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
