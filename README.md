@@ -95,7 +95,7 @@ helper VIs
 ![Examples](images/Examples.png)
 
 ## Contributing
-Please contact [Patrick Irvin](p.irvin@levylab.org)
+Please contact [Patrick Irvin](https://github.com/ciozi137)
 
 ## License
 [BSD-3](https://opensource.org/licenses/BSD-3-Clause)
