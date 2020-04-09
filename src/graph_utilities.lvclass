@@ -239,6 +239,15 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
 		</Item>
+		<Item Name="Set Intensity Graph Scales (Start and End).vi" Type="VI" URL="../Intensity Graph/Set Intensity Graph Scales (Start and End).vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'7!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$:!=!!?!!!:&amp;W&gt;S98"I8X6U;7RJ&gt;'FF=SZM&gt;G.M98.T!".H=G&amp;Q;&amp;^V&gt;'FM;82J:8-A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!$5!+!!&gt;Z)(.U98*U!!N!#A!&amp;?3"F&lt;G1!'%"1!!)!"Q!)$8EA=X2B=H1A*C"F&lt;G1!$5!+!!&gt;Y)(.U98*U!!N!#A!&amp;?#"F&lt;G1!'%"1!!)!#A!,$8AA=X2B=H1A*C"F&lt;G1!.E"Q!"Y!!"E8:X*B='B@&gt;82J&lt;'FU;76T,GRW9WRB=X-!%G&gt;S98"I8X6U;7RJ&gt;'FF=S"J&lt;A!!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!#1!-!!U$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!)!!!!#!!!!!A!!!U!!!!-!!!!!!!!!!!!!!%!$A!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+		</Item>
 		<Item Name="Set Intensity Graph X Label.vi" Type="VI" URL="../Intensity Graph/Set Intensity Graph X Label.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;'!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$:!=!!?!!!:&amp;W&gt;S98"I8X6U;7RJ&gt;'FF=SZM&gt;G.M98.T!".H=G&amp;Q;&amp;^V&gt;'FM;82J:8-A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!%%!Q`````Q&gt;9)%RB9G6M!$:!=!!?!!!:&amp;W&gt;S98"I8X6U;7RJ&gt;'FF=SZM&gt;G.M98.T!"*H=G&amp;Q;&amp;^V&gt;'FM;82J:8-A;7Y!!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!A!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
