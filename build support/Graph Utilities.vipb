@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2017-05-22 22:25:33" Modified_Date="2020-03-18 13:26:56" Creator="Patrick Irvin" Comments="" ID="681575c1038ebbec52e3dc68e5065c5e">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2017-05-22 22:25:33" Modified_Date="2020-04-09 09:02:35" Creator="Patrick Irvin" Comments="" ID="c2cb59cea7c834430520edbf128ca2da">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_graph_utilities</Package_File_Name>
-    <Library_Version>2.0.3.4</Library_Version>
+    <Library_Version>2.0.4.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -37,10 +37,9 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[2.0.3.3]
+      <Release_Notes>[2.0.4.4]
 Bug Fixes:
-- Issue #4: Change appearance of class wire
-Update package dependencies
+- Issue #6: change graph references to be non-strict
 </Release_Notes>
     </Description>
     <Destinations>
@@ -289,7 +288,7 @@ Update package dependencies
         <Path>..\src\API</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>88521B52BD39EE7D4522EA890ACF9679</GUID>
+      <GUID>A37A9D36AF20B82318430FF535F9763B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -338,7 +337,7 @@ Update package dependencies
         <Path>..\src\Accessors\Write XY Graph ref.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>10E69A5D856197337998B0B1B54F1872</GUID>
+      <GUID>AC4F2DE0CA3FDF2153C86C8759957A7A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -429,7 +428,7 @@ Update package dependencies
         <Path>..\src\API\Intensity Graph to XY Graph (Vertical).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>78A3F671A3A3CB7BC865082AFFE83656</GUID>
+      <GUID>359A3EB82701A6BDCA60922F5B77B98D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -492,7 +491,7 @@ Update package dependencies
         <Path>..\src\Examples\Linecut Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0DEE00B3C2CC71857CE486E36CABEAF7</GUID>
+      <GUID>D2E3931E48C32DC5C9B7298BA3D39995</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -737,7 +736,7 @@ Update package dependencies
         <Path>..\src\Accessors\Write Intensity Graph ref.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7857F695A29ADE08042E7D8A1FCF9054</GUID>
+      <GUID>229AF7966067D3990FAD787EA25586CB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -828,7 +827,7 @@ Update package dependencies
         <Path>..\src\subVIs\Set Intensity Scales (Start and End).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>25A028F200385187DA717EB850313621</GUID>
+      <GUID>75D79DCDBA458BC8D1FB1CDCC7C3FAAF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1059,7 +1058,7 @@ Update package dependencies
         <Path>..\src\XY Graph\Set XY Graph X Mapping.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6785F899DC476D273F97D2CDD4377575</GUID>
+      <GUID>1539B3E0E4BA150C11824F9CE141C6E5</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -1108,7 +1107,7 @@ Update package dependencies
         <Path>..\src\Typedefs\XY Graph.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>46BCB85110F568E0C69FE60621AF2256</GUID>
+      <GUID>360FBC0A0A2F6EDE6A394FEEF6FE5B76</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
