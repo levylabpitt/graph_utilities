@@ -73,7 +73,10 @@ Primitives for working with XY Graphs.
 - Offset XY graph.vi
 
 ### /API/
-Higher-Level VIs. For example: convert an Intensity Graph into a family of plots on an XY Graph. And vice versa. Also easily take Linecuts with width on an Intensity Graph.
+Basically Macros. For example:
+
+- Convert an XY Graph into a an Intensity Graph. And vice versa.
+- Also easily take vertical and horzontal linecuts (with width!) of an Intensity Graph.
 
 ![subVIs-4-API](images/subVIs-4-API.png)
 
@@ -84,9 +87,15 @@ Higher-Level VIs. For example: convert an Intensity Graph into a family of plots
 - XY Graph to Intensity Graph.vi
 
 ### /subVIs/
-helper VIs
 
 ![subVIs-5](images/subVIs-5.png)
+
+- Array to Offset and Multiplier.vi
+- Create Color Table.vi
+- Normalized Gaussian.vi
+- Offset and Multiplier to Array.vi
+- Variant to 2D Array.vi
+- Variant to XY-Data.vi
 
 ## Examples
 - Intensity Graph to XY Graph Example.vi: Stand alone VI for converting an Intensity Graph in XY plots. Converts both horizontally and vertically.
