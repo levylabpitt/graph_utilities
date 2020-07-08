@@ -1,2 +1,4 @@
 /builds/Package
 /builds
+/src/*.lvlps
+/src/*.aliases
