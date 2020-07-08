@@ -16,6 +16,12 @@
 		<Item Name="build support" Type="Folder">
 			<Item Name="Graph Utilities.vipb" Type="Document" URL="../../build support/Graph Utilities.vipb"/>
 		</Item>
+		<Item Name="Example" Type="Folder">
+			<Item Name="Histogram.vi" Type="VI" URL="../Examples/Histogram.vi"/>
+			<Item Name="Intensity Graph to XY Graph.vi" Type="VI" URL="../Examples/Intensity Graph to XY Graph.vi"/>
+			<Item Name="Linecut.vi" Type="VI" URL="../Examples/Linecut.vi"/>
+		</Item>
+		<Item Name="Graph Utilities Tree.vi" Type="VI" URL="../../Graph Utilities Tree.vi"/>
 		<Item Name="graph_utilities.lvclass" Type="LVClass" URL="../graph_utilities.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
