@@ -55,7 +55,7 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
 		</Item>
-		<Item Name="Histogram Graph.ctl" Type="VI" URL="../Typedefs/Histogram Graph.ctl">
+		<Item Name="Histogram--Graph.ctl" Type="VI" URL="../Typedefs/Histogram--Graph.ctl">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!![!!!!!1!S!0%!!!!!!!!!!B&gt;H=G&amp;Q;&amp;^V&gt;'FM;82J:8-O&lt;(:D&lt;'&amp;T=QF$&lt;WZU=G^M)$%!#!!!!!%!!!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">5242880</Property>
