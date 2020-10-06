@@ -22,7 +22,7 @@
 			<Item Name="Linecut.vi" Type="VI" URL="../Examples/Linecut.vi"/>
 		</Item>
 		<Item Name="graph_utilities.lvclass" Type="LVClass" URL="../graph_utilities.lvclass"/>
-		<Item Name="Graph Utilities Tree.vi" Type="VI" URL="../../Graph Utilities Tree.vi"/>
+		<Item Name="Graph Utilities Tree.vi" Type="VI" URL="../Graph Utilities Tree.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="LVOffsetAndMultiplierTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVOffsetAndMultiplierTypeDef.ctl"/>
