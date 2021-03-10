@@ -1,0 +1,1020 @@
+= Graph Utilities
+Patrick Irvin <p.irvin@levylab.org>
+:doctype: book
+:toc: left
+:imagesdir: Images
+:sectnums: 
+:toclevels: 2
+:sectanchors: 
+:sectlinks: 
+:chapter-label: Section
+
+== Project description
+
+No description found (add content in project description)
+
+== Classes
+
+This section describes the classes contained in the project.
+
+=== Classes overview
+
+This project contains 1 classe and 0 interface.
+
+.Classes list
+[cols="<.<1d,<.<1d", %autowidth, frame=all, grid=all, stripes=none]
+|===
+|Classes|Interfaces
+
+|<<graph_utilities.lvclass>>
+|
+|===
+
+[plantuml, format="svg", align="center"]
+....
+@startuml
+set namespaceSeparator :
+skinparam ClassBackgroundColor #FFFFFF
+skinparam ClassBorderColor #555555
+skinparam ClassFontColor #000000
+skinparam ClassHeaderBackgroundColor #808080
+
+skinparam top to bottom direction
+class "graph_utilities" {
+{field} -Intensity Graph : Cluster
+{field} -XY Graph : Cluster
+{static} {method} +Intensity Graph Linecut (Horizontal)()
+{static} {method} +Intensity Graph Linecut (Vertical)()
+{static} {method} +Intensity Graph to XY Graph (Horizontal)()
+{static} {method} +Intensity Graph to XY Graph (Vertical)()
+{static} {method} +XY Graph to Intensity Graph()
+{static} {method} +Get Intensity Graph Cursor (Control)()
+{static} {method} +Set Intensity Graph Cursor()
+{static} {method} +Get Intensity Graph Value()
+{static} {method} +Get Intensity Graph X Label()
+{static} {method} +Get Intensity Graph X Scale()
+{static} {method} +Get Intensity Graph Y Label()
+{static} {method} +Get Intensity Graph Y Scale()
+{static} {method} +Get Intensity Graph Z Label()
+{static} {method} +Set Intensity Graph Value()
+{static} {method} +Set Intensity Graph X Label()
+{static} {method} +Set Intensity Graph X Range()
+{static} {method} +Set Intensity Graph X Scale Array()
+{static} {method} +Set Intensity Graph X Scale Min and Max()
+{static} {method} +Set Intensity Graph Y Label()
+{static} {method} +Set Intensity Graph Y Range()
+{static} {method} +Set Intensity Graph Y Scale Array()
+{static} {method} +Set Intensity Graph Y Scale Min and Max()
+{static} {method} +Set Intensity Graph Z Range()
+{static} {method} +Set Intensity Graph Z Color()
+{static} {method} +Set Intensity Graph Z Label()
+{static} {method} #Array to Offset and Multiplier()
+{static} {method} #Create Color Table()
+{static} {method} #Normalized Gaussian()
+{static} {method} #Offset and Multiplier to Array()
+{static} {method} #Variant to 2D Array()
+{static} {method} #Variant to XY-Data()
+{static} {method} +Offset XY Graph()
+{static} {method} +Get XY Graph Value()
+{static} {method} +Get XY Graph X Label()
+{static} {method} +Get XY Graph Y Label()
+{static} {method} +Get XY Graph X Mapping()
+{static} {method} +Get XY Graph Y Mapping()
+{static} {method} +Get XY Graph Plot Names()
+{static} {method} +Set XY Graph Plot Colors()
+{static} {method} +Set XY Graph Value()
+{static} {method} +Set XY Graph Value (single)()
+{static} {method} +Set XY Graph Value (array)()
+{static} {method} +Set XY Graph X Label()
+{static} {method} +Set XY Graph Y Label()
+{static} {method} +Set XY Graph X Mapping()
+{static} {method} +Set XY Graph Y Mapping()
+{static} {method} +Set XY Graph X Range()
+{static} {method} +Set XY Graph Y Range()
+{static} {method} +Set XY Graph Plot Names()
+{static} {method} #adjust_histogram_cursor()
+{static} {method} #calculate_histogram()
+{static} {method} +Intensity Graph Histogram Control()
+
+}
+
+
+
+@enduml
+....
+
+=== graph_utilities.lvclass
+
+*Responsibility:*
+No description found (add content in lvclass description)
+
+*Version:* 1.0.0.5
+
+[plantuml, format="svg", align="center"]
+....
+@startuml
+set namespaceSeparator :
+skinparam ClassBackgroundColor #FFFFFF
+skinparam ClassBorderColor #555555
+skinparam ClassFontColor #000000
+skinparam ClassHeaderBackgroundColor #808080
+
+skinparam top to bottom direction
+class "graph_utilities" {
+{field} -Intensity Graph : Cluster
+{field} -XY Graph : Cluster
+{static} {method} +Intensity Graph Linecut (Horizontal)()
+{static} {method} +Intensity Graph Linecut (Vertical)()
+{static} {method} +Intensity Graph to XY Graph (Horizontal)()
+{static} {method} +Intensity Graph to XY Graph (Vertical)()
+{static} {method} +XY Graph to Intensity Graph()
+{static} {method} +Get Intensity Graph Cursor (Control)()
+{static} {method} +Set Intensity Graph Cursor()
+{static} {method} +Get Intensity Graph Value()
+{static} {method} +Get Intensity Graph X Label()
+{static} {method} +Get Intensity Graph X Scale()
+{static} {method} +Get Intensity Graph Y Label()
+{static} {method} +Get Intensity Graph Y Scale()
+{static} {method} +Get Intensity Graph Z Label()
+{static} {method} +Set Intensity Graph Value()
+{static} {method} +Set Intensity Graph X Label()
+{static} {method} +Set Intensity Graph X Range()
+{static} {method} +Set Intensity Graph X Scale Array()
+{static} {method} +Set Intensity Graph X Scale Min and Max()
+{static} {method} +Set Intensity Graph Y Label()
+{static} {method} +Set Intensity Graph Y Range()
+{static} {method} +Set Intensity Graph Y Scale Array()
+{static} {method} +Set Intensity Graph Y Scale Min and Max()
+{static} {method} +Set Intensity Graph Z Range()
+{static} {method} +Set Intensity Graph Z Color()
+{static} {method} +Set Intensity Graph Z Label()
+{static} {method} #Array to Offset and Multiplier()
+{static} {method} #Create Color Table()
+{static} {method} #Normalized Gaussian()
+{static} {method} #Offset and Multiplier to Array()
+{static} {method} #Variant to 2D Array()
+{static} {method} #Variant to XY-Data()
+{static} {method} +Offset XY Graph()
+{static} {method} +Get XY Graph Value()
+{static} {method} +Get XY Graph X Label()
+{static} {method} +Get XY Graph Y Label()
+{static} {method} +Get XY Graph X Mapping()
+{static} {method} +Get XY Graph Y Mapping()
+{static} {method} +Get XY Graph Plot Names()
+{static} {method} +Set XY Graph Plot Colors()
+{static} {method} +Set XY Graph Value()
+{static} {method} +Set XY Graph Value (single)()
+{static} {method} +Set XY Graph Value (array)()
+{static} {method} +Set XY Graph X Label()
+{static} {method} +Set XY Graph Y Label()
+{static} {method} +Set XY Graph X Mapping()
+{static} {method} +Set XY Graph Y Mapping()
+{static} {method} +Set XY Graph X Range()
+{static} {method} +Set XY Graph Y Range()
+{static} {method} +Set XY Graph Plot Names()
+{static} {method} #adjust_histogram_cursor()
+{static} {method} #calculate_histogram()
+{static} {method} +Intensity Graph Histogram Control()
+
+}
+
+
+
+@enduml
+....
+
+.Functions (non private scope only)
+[cols="<.<4d,<.<8a,<.<12d,<.<1a,<.<1a,<.<1a", %autowidth, frame=all, grid=all, stripes=none]
+|===
+|Name|Connector pane|Description|S.|R.|I.
+
+|Read Intensity Graph ref
+|:imgpath: graph_utilities.lvclass_Read_Intensity_Graph_ref.vi__.png
+image:{imgpath}[graph_utilities.lvclass:Read Intensity Graph ref.vi]
+|+++Read Intensity Graph control references from the class wire.+++
++++ - "Intensity Graph" is the normal target for reading and writing.+++
++++ - "Intensity Graph (Control)" is only used to read the cursor position of the "Control" Intensity Graph.s+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-preallocated.png
+image:{imgpath}[reentrancy-preallocated.png]
+|:imgpath: inlined.png
+image:{imgpath}[inlined.png]
+
+|Read XY Graph ref
+|:imgpath: graph_utilities.lvclass_Read_XY_Graph_ref.vi__.png
+image:{imgpath}[graph_utilities.lvclass:Read XY Graph ref.vi]
+|+++Read  XY Graph control references from the class wire.+++
++++ - "XY Graph" is the normal target for reading and writing.+++
++++ - "XY Graph (Control)" is reserved for future use.+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-preallocated.png
+image:{imgpath}[reentrancy-preallocated.png]
+|:imgpath: inlined.png
+image:{imgpath}[inlined.png]
+
+|Write Intensity Graph ref
+|:imgpath: graph_utilities.lvclass_Write_Intensity_Graph_ref.vi__.png
+image:{imgpath}[graph_utilities.lvclass:Write Intensity Graph ref.vi]
+|+++Write Intensity Graph control references to the class wire.+++
++++ - "Intensity Graph" is the normal target for reading and writing.+++
++++ - "Intensity Graph (Control)" is only used to read the cursor position of the "Control" Intensity Graph.+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-preallocated.png
+image:{imgpath}[reentrancy-preallocated.png]
+|:imgpath: inlined.png
+image:{imgpath}[inlined.png]
+
+|Write XY Graph ref
+|:imgpath: graph_utilities.lvclass_Write_XY_Graph_ref.vi__.png
+image:{imgpath}[graph_utilities.lvclass:Write XY Graph ref.vi]
+|+++Write XY Graph control references to the class wire.+++
++++ - "XY Graph" is the normal target for reading and writing.+++
++++ - "XY Graph (Control)" is reserved for future use.+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-preallocated.png
+image:{imgpath}[reentrancy-preallocated.png]
+|:imgpath: inlined.png
+image:{imgpath}[inlined.png]
+
+|Intensity Graph Linecut (Horizontal)
+|:imgpath: graph_utilities.lvclass_Intensity_Graph_Linecut_(Horizontal).vi__.png
+image:{imgpath}[graph_utilities.lvclass:Intensity Graph Linecut (Horizontal).vi]
+|+++Takes a Horizontal Linecut of an Intensity Graph and outputs to an XY Graph. The center location of the linecut is determined by the y-position of the Intensity Graph curser.+++
++++ - <b>width</b> is the standard deviation of a Gaussian function in the units of the Intensity Graph y scale.+++
++++ - If <b>width = 0 </b> the spacing between two adjacent data points will be used.+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: inlined.png
+image:{imgpath}[inlined.png]
+
+|Intensity Graph Linecut (Vertical)
+|:imgpath: graph_utilities.lvclass_Intensity_Graph_Linecut_(Vertical).vi__.png
+image:{imgpath}[graph_utilities.lvclass:Intensity Graph Linecut (Vertical).vi]
+|+++Takes a Vertical Linecut of an Intensity Graph and outputs to an XY Graph. The center location of the linecut is determined by the x-position of the Intensity Graph's curser.+++
++++ - <b>width</b> is the standard deviation of a Gaussian function in the units of the Intensity Graph x scale.+++
++++ - If <b>width = 0 </b> the spacing between two adjacent data points will be used.+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: inlined.png
+image:{imgpath}[inlined.png]
+
+|Intensity Graph to XY Graph (Horizontal)
+|:imgpath: graph_utilities.lvclass_Intensity_Graph_to_XY_Graph_(Horizontal).vi__.png
+image:{imgpath}[graph_utilities.lvclass:Intensity Graph to XY Graph (Horizontal).vi]
+|+++Converts an Intensity Graph into a sequence of plots on a XY Graph.+++
+
++++The x-axis of the XY Graph will be equal to the x-axis of the Intensity Graph.+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: inlined.png
+image:{imgpath}[inlined.png]
+
+|Intensity Graph to XY Graph (Vertical)
+|:imgpath: graph_utilities.lvclass_Intensity_Graph_to_XY_Graph_(Vertical).vi__.png
+image:{imgpath}[graph_utilities.lvclass:Intensity Graph to XY Graph (Vertical).vi]
+|+++Converts an Intensity Graph into a sequence of plots on a XY Graph.+++
+
++++The x-axis of the XY Graph will be equal to the y-axis of the Intensity Graph.+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: inlined.png
+image:{imgpath}[inlined.png]
+
+|XY Graph to Intensity Graph
+|:imgpath: graph_utilities.lvclass_XY_Graph_to_Intensity_Graph.vi__.png
+image:{imgpath}[graph_utilities.lvclass:XY Graph to Intensity Graph.vi]
+|+++Converts a sequence of XY Graphs to an Intensity Graph. Auomatically interpolates along X and Y.+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: inlined.png
+image:{imgpath}[inlined.png]
+
+|Get Intensity Graph Cursor (Control)
+|:imgpath: graph_utilities.lvclass_Get_Intensity_Graph_Cursor_(Control).vi__.png
+image:{imgpath}[graph_utilities.lvclass:Get Intensity Graph Cursor (Control).vi]
+|+++Read the cursor position from the "Control" Intensity Graph.+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Set Intensity Graph Cursor
+|:imgpath: graph_utilities.lvclass_Set_Intensity_Graph_Cursor.vi__.png
+image:{imgpath}[graph_utilities.lvclass:Set Intensity Graph Cursor.vi]
+|+++Set the cursor position on the Intensity Graph+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Get Intensity Graph Value
+|:imgpath: graph_utilities.lvclass_Get_Intensity_Graph_Value.vi__.png
+image:{imgpath}[graph_utilities.lvclass:Get Intensity Graph Value.vi]
+|+++Get the current value of the Intensity Graph+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Get Intensity Graph X Label
+|:imgpath: graph_utilities.lvclass_Get_Intensity_Graph_X_Label.vi__.png
+image:{imgpath}[graph_utilities.lvclass:Get Intensity Graph X Label.vi]
+|+++Get the X Label of the Intensity Graph+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Get Intensity Graph X Scale
+|:imgpath: graph_utilities.lvclass_Get_Intensity_Graph_X_Scale.vi__.png
+image:{imgpath}[graph_utilities.lvclass:Get Intensity Graph X Scale.vi]
+|+++Get the X Scale of the Intensity Graph (Both X Array and X Offset and Multiplier)+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Get Intensity Graph Y Label
+|:imgpath: graph_utilities.lvclass_Get_Intensity_Graph_Y_Label.vi__.png
+image:{imgpath}[graph_utilities.lvclass:Get Intensity Graph Y Label.vi]
+|+++Get the Y Label of the Intensity Graph+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Get Intensity Graph Y Scale
+|:imgpath: graph_utilities.lvclass_Get_Intensity_Graph_Y_Scale.vi__.png
+image:{imgpath}[graph_utilities.lvclass:Get Intensity Graph Y Scale.vi]
+|+++Get the Y Scale of the Intensity Graph (Both Y Array and Y Offset and Multiplier)+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Get Intensity Graph Z Label
+|:imgpath: graph_utilities.lvclass_Get_Intensity_Graph_Z_Label.vi__.png
+image:{imgpath}[graph_utilities.lvclass:Get Intensity Graph Z Label.vi]
+|+++Get the Z Label of the Intensity Graph+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Set Intensity Graph Value
+|:imgpath: graph_utilities.lvclass_Set_Intensity_Graph_Value.vi__.png
+image:{imgpath}[graph_utilities.lvclass:Set Intensity Graph Value.vi]
+|+++Set the current value of the Intensity Graph+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Set Intensity Graph X Label
+|:imgpath: graph_utilities.lvclass_Set_Intensity_Graph_X_Label.vi__.png
+image:{imgpath}[graph_utilities.lvclass:Set Intensity Graph X Label.vi]
+|+++Set the X Label of the Intensity Graph+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Set Intensity Graph X Range
+|:imgpath: graph_utilities.lvclass_Set_Intensity_Graph_X_Range.vi__.png
+image:{imgpath}[graph_utilities.lvclass:Set Intensity Graph X Range.vi]
+|+++Set the Z scale range <b>Minimum</b> and <b>Maximum</b> values.+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Set Intensity Graph X Scale Array
+|:imgpath: graph_utilities.lvclass_Set_Intensity_Graph_X_Scale_Array.vi__.png
+image:{imgpath}[graph_utilities.lvclass:Set Intensity Graph X Scale Array.vi]
+|+++Set the X Offset and Multiple of the Intensity Graph by wiring an array to X Scale+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Set Intensity Graph X Scale Min and Max
+|:imgpath: graph_utilities.lvclass_Set_Intensity_Graph_X_Scale_Min_and_Max.vi__.png
+image:{imgpath}[graph_utilities.lvclass:Set Intensity Graph X Scale Min and Max.vi]
+|+++Set the X Offset and Multiple of the Intensity Graph by wiring an array to X Scale+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Set Intensity Graph Y Label
+|:imgpath: graph_utilities.lvclass_Set_Intensity_Graph_Y_Label.vi__.png
+image:{imgpath}[graph_utilities.lvclass:Set Intensity Graph Y Label.vi]
+|+++Set the S Label of the Intensity Graph+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Set Intensity Graph Y Range
+|:imgpath: graph_utilities.lvclass_Set_Intensity_Graph_Y_Range.vi__.png
+image:{imgpath}[graph_utilities.lvclass:Set Intensity Graph Y Range.vi]
+|+++Set the Z scale range <b>Minimum</b> and <b>Maximum</b> values.+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Set Intensity Graph Y Scale Array
+|:imgpath: graph_utilities.lvclass_Set_Intensity_Graph_Y_Scale_Array.vi__.png
+image:{imgpath}[graph_utilities.lvclass:Set Intensity Graph Y Scale Array.vi]
+|+++Set the Y Offset and Multiple of the Intensity Graph by wiring an array to Y Scale+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Set Intensity Graph Y Scale Min and Max
+|:imgpath: graph_utilities.lvclass_Set_Intensity_Graph_Y_Scale_Min_and_Max.vi__.png
+image:{imgpath}[graph_utilities.lvclass:Set Intensity Graph Y Scale Min and Max.vi]
+|+++Set the Y Offset and Multiple of the Intensity Graph by wiring an array to Y Scale+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Set Intensity Graph Z Range
+|:imgpath: graph_utilities.lvclass_Set_Intensity_Graph_Z_Range.vi__.png
+image:{imgpath}[graph_utilities.lvclass:Set Intensity Graph Z Range.vi]
+|+++Set the Z scale range <b>Minimum</b> and <b>Maximum</b> values.+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Set Intensity Graph Z Color
+|:imgpath: graph_utilities.lvclass_Set_Intensity_Graph_Z_Color.vi__.png
+image:{imgpath}[graph_utilities.lvclass:Set Intensity Graph Z Color.vi]
+|+++Define a Z Scale color table for the Intensity Graph. Default colors are rainbow.+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Set Intensity Graph Z Label
+|:imgpath: graph_utilities.lvclass_Set_Intensity_Graph_Z_Label.vi__.png
+image:{imgpath}[graph_utilities.lvclass:Set Intensity Graph Z Label.vi]
+|+++Set the Z Label of the Intensity Graph+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Array to Offset and Multiplier
+|:imgpath: graph_utilities.lvclass_Array_to_Offset_and_Multiplier.vi__.png
+image:{imgpath}[graph_utilities.lvclass:Array to Offset and Multiplier.vi]
+|+++Given an array, calculate an Offset and Multiplier+++
+
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: inlined.png
+image:{imgpath}[inlined.png]
+
+|Create Color Table
+|:imgpath: graph_utilities.lvclass_Create_Color_Table.vi__.png
+image:{imgpath}[graph_utilities.lvclass:Create Color Table.vi]
+|+++Wire an array of colors to Color []. This VI will interpolate between the colors and return a R,G,B, and Color Table arrays.+++
+
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Normalized Gaussian
+|:imgpath: graph_utilities.lvclass_Normalized_Gaussian.vi__.png
+image:{imgpath}[graph_utilities.lvclass:Normalized Gaussian.vi]
+|+++Normalized Gaussian.+++
+
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Offset and Multiplier to Array
+|:imgpath: graph_utilities.lvclass_Offset_and_Multiplier_to_Array.vi__.png
+image:{imgpath}[graph_utilities.lvclass:Offset and Multiplier to Array.vi]
+|+++Calculate an Array for the given Offset and Multiplier+++
+
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: inlined.png
+image:{imgpath}[inlined.png]
+
+|Variant to 2D Array
+|:imgpath: graph_utilities.lvclass_Variant_to_2D_Array.vi__.png
+image:{imgpath}[graph_utilities.lvclass:Variant to 2D Array.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Variant to XY-Data
+|:imgpath: graph_utilities.lvclass_Variant_to_XY_Data.vi__.png
+image:{imgpath}[graph_utilities.lvclass:Variant to XY-Data.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Offset XY Graph
+|:imgpath: graph_utilities.lvclass_Offset_XY_Graph.vi__.png
+image:{imgpath}[graph_utilities.lvclass:Offset XY Graph.vi]
+|+++Offset each XY plot by <b>x offset</b> and <b>y offset</b>+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Get XY Graph Value
+|:imgpath: graph_utilities.lvclass_Get_XY_Graph_Value.vi__.png
+image:{imgpath}[graph_utilities.lvclass:Get XY Graph Value.vi]
+|+++Get the <b>value</b> of the XY  Graph.+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Get XY Graph X Label
+|:imgpath: graph_utilities.lvclass_Get_XY_Graph_X_Label.vi__.png
+image:{imgpath}[graph_utilities.lvclass:Get XY Graph X Label.vi]
+|+++Get the <b>X Label</b> of the XY  Graph.+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Get XY Graph Y Label
+|:imgpath: graph_utilities.lvclass_Get_XY_Graph_Y_Label.vi__.png
+image:{imgpath}[graph_utilities.lvclass:Get XY Graph Y Label.vi]
+|+++Get the <b>Y Label</b> of the XY  Graph.+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Get XY Graph X Mapping
+|:imgpath: graph_utilities.lvclass_Get_XY_Graph_X_Mapping.vi__.png
+image:{imgpath}[graph_utilities.lvclass:Get XY Graph X Mapping.vi]
+|+++Get the X Scale Mapping (linear or logarithmic).+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Get XY Graph Y Mapping
+|:imgpath: graph_utilities.lvclass_Get_XY_Graph_Y_Mapping.vi__.png
+image:{imgpath}[graph_utilities.lvclass:Get XY Graph Y Mapping.vi]
+|+++Get the Y Scale Mapping (linear or logarithmic).+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Get XY Graph Plot Names
+|:imgpath: graph_utilities.lvclass_Get_XY_Graph_Plot_Names.vi__.png
+image:{imgpath}[graph_utilities.lvclass:Get XY Graph Plot Names.vi]
+|+++Get all plot names.+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Set XY Graph Plot Colors
+|:imgpath: graph_utilities.lvclass_Set_XY_Graph_Plot_Colors.vi__.png
+image:{imgpath}[graph_utilities.lvclass:Set XY Graph Plot Colors.vi]
+|+++Set the plot colors to be different according to the color table+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Set XY Graph Value (single)
+|:imgpath: graph_utilities.lvclass_Set_XY_Graph_Value_(single).vi__.png
+image:{imgpath}[graph_utilities.lvclass:Set XY Graph Value (single).vi]
+|+++Set the current value of the XY  Graph.+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Set XY Graph Value (array)
+|:imgpath: graph_utilities.lvclass_Set_XY_Graph_Value_(array).vi__.png
+image:{imgpath}[graph_utilities.lvclass:Set XY Graph Value (array).vi]
+|+++Set the current value of the XY  Graph.+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Set XY Graph X Label
+|:imgpath: graph_utilities.lvclass_Set_XY_Graph_X_Label.vi__.png
+image:{imgpath}[graph_utilities.lvclass:Set XY Graph X Label.vi]
+|+++Set the X Label of the XY  Graph.+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Set XY Graph Y Label
+|:imgpath: graph_utilities.lvclass_Set_XY_Graph_Y_Label.vi__.png
+image:{imgpath}[graph_utilities.lvclass:Set XY Graph Y Label.vi]
+|+++Set the Y Label of the XY  Graph.+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Set XY Graph X Mapping
+|:imgpath: graph_utilities.lvclass_Set_XY_Graph_X_Mapping.vi__.png
+image:{imgpath}[graph_utilities.lvclass:Set XY Graph X Mapping.vi]
+|+++Set the X Scale Mapping (linear or logarithmic).+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Set XY Graph Y Mapping
+|:imgpath: graph_utilities.lvclass_Set_XY_Graph_Y_Mapping.vi__.png
+image:{imgpath}[graph_utilities.lvclass:Set XY Graph Y Mapping.vi]
+|+++Set the Y Scale Mapping (linear or logarithmic).+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Set XY Graph X Range
+|:imgpath: graph_utilities.lvclass_Set_XY_Graph_X_Range.vi__.png
+image:{imgpath}[graph_utilities.lvclass:Set XY Graph X Range.vi]
+|+++Set the X Range (<b>Minimum</b> and <b>Maximum</b>) of the XY  Graph.+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Set XY Graph Y Range
+|:imgpath: graph_utilities.lvclass_Set_XY_Graph_Y_Range.vi__.png
+image:{imgpath}[graph_utilities.lvclass:Set XY Graph Y Range.vi]
+|+++Set the X Range (<b>Minimum</b> and <b>Maximum</b>) of the XY Graph.+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Set XY Graph Plot Names
+|:imgpath: graph_utilities.lvclass_Set_XY_Graph_Plot_Names.vi__.png
+image:{imgpath}[graph_utilities.lvclass:Set XY Graph Plot Names.vi]
+|+++Set the plot names with option to reset all to "Plot #"+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: reentrancy-shared.png
+image:{imgpath}[reentrancy-shared.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|adjust_histogram_cursor
+|:imgpath: graph_utilities.lvclass_adjust_histogram_cursor.vi__.png
+image:{imgpath}[graph_utilities.lvclass:adjust_histogram_cursor.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|calculate_histogram
+|:imgpath: graph_utilities.lvclass_calculate_histogram.vi__.png
+image:{imgpath}[graph_utilities.lvclass:calculate_histogram.vi]
+|No description found (add content in vi description)
+|:imgpath: scope-protected.png
+image:{imgpath}[scope-protected.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+
+|Intensity Graph Histogram Control
+|:imgpath: graph_utilities.lvclass_Intensity_Graph_Histogram_Control.vi__.png
+image:{imgpath}[graph_utilities.lvclass:Intensity Graph Histogram Control.vi]
+|+++Phil's Histogram Control. Use a histogram to set your Intensity graph Z scale by easily spotting where most of your data lies.+++
+
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|:imgpath: empty.png
+image:{imgpath}[empty.png]
+|===
+
+**S**cope: image:scope-protected.png[] -> Protected | image:scope-community.png[] -> Community
+
+**R**eentrancy: image:reentrancy-preallocated.png[] -> Preallocated reentrancy | image:reentrancy-shared.png[] -> Shared reentrancy
+
+**I**nlining: image:inlined.png[] -> Inlined
+
+== Legal Information
+
+=== Document creation
+
+This document has been generated using the following tools.
+
+==== Antidoc
+
+Project website: https://wovalab.gitlab.io/open-source/labview-doc-generator/[Antidoc] 
+
+Maintainer website: https://wovalab.com[Wovalab] 
+
+BSD 3-Clause License
+
+Copyright (C) 2019, Wovalab,
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice, this
+  list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright notice,
+  this list of conditions and the following disclaimer in the documentation
+  and/or other materials provided with the distribution.
+
+* Neither the name of the copyright holder nor the names of its
+  contributors may be used to endorse or promote products derived from
+  this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+==== Asciidoc for LabVIEW(TM)
+
+Project website: https://wovalab.gitlab.io/open-source/asciidoc-toolkit/[Asciidoc toolkit] 
+
+Maintainer website: https://wovalab.com[Wovalab] 
+
+BSD 3-Clause License
+
+Copyright (C) 2019, Wovalab,
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice, this
+  list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright notice,
+  this list of conditions and the following disclaimer in the documentation
+  and/or other materials provided with the distribution.
+
+* Neither the name of the copyright holder nor the names of its
+  contributors may be used to endorse or promote products derived from
+  this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+==== Graph Builder
+
+Project website: https://gitlab.com/cgambini/graph-builder[Graph Builder]
+
+BSD 3-Clause License
+
+Copyright (c) 2020, Cyril GAMBINI
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice, this
+  list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright notice,
+  this list of conditions and the following disclaimer in the documentation
+  and/or other materials provided with the distribution.
+
+* Neither the name of the copyright holder nor the names of its
+  contributors may be used to endorse or promote products derived from
+  this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+==== classy Diagram Viewer
+
+Project website: https://gitlab.com/tatiana.boye/classy-diagram-viewer[classy Diagram Viewer]
+
+BSD 3-Clause License
+
+Copyright (c) 2021, Tatiana Boyé
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice, this
+  list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright notice,
+  this list of conditions and the following disclaimer in the documentation
+  and/or other materials provided with the distribution.
+
+* Neither the name of the copyright holder nor the names of its
+  contributors may be used to endorse or promote products derived from
+  this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+=== Product used in the project
+
+Antidoc hasn't been able to detect third party products in the project.
+This is the author's responsibility to list any of the missing product used.

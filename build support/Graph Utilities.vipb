@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2017-05-22 22:25:33" Modified_Date="2020-10-08 13:09:55" Creator="Patrick Irvin" Comments="" ID="04a38664cb2a73fb9f2b8dfa41d218d4">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2017-05-22 22:25:33" Modified_Date="2021-03-10 18:16:38" Creator="Patrick Irvin" Comments="" ID="95d3ce81ea9136fcf6caeb648a311343">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_graph_utilities</Package_File_Name>
-    <Library_Version>2.1.2.5</Library_Version>
+    <Library_Version>2.1.3.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -17,9 +17,9 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>levylab_lib_xy_utilities &gt;= 1.2.0.11</External_Dependencies>
+      <External_Dependencies>levylab_lib_xy_utilities &gt;= 1.3.2.16</External_Dependencies>
       <Additional_External_Dependencies>jki_lib_state_machine &gt;=2018.0.7.45</Additional_External_Dependencies>
-      <Direct_Dependencies>levylab_lib_xy_utilities-1.2.0.11</Direct_Dependencies>
+      <Direct_Dependencies>levylab_lib_xy_utilities-1.3.2.16</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -36,9 +36,11 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[2.1.2]
-- Update Control typedefs
-- Set XY Graph Value: Value is now polymorphic</Release_Notes>
+      <Release_Notes>[2.1.3]
+- Change behavior of Array to Offset and Multiplier. Now calculates multiplier by (x[N-1] - x[0])/(N-1), where N is the length of the array.
+- XY Graph to Intensity Graph now calls XY to 2D from XY_utilities package
+- Make VIs preallocated reentrant, remove automatic error handling, remove debugging
+- Add documentation</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -295,7 +297,7 @@
         <Path>..\src\subVIs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0315A8ABD239B9DA07A1DC41518EF1E9</GUID>
+      <GUID>A25B5800D2A00706A2A078FCC2F923EF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -372,7 +374,7 @@
         <Path>..\src\Accessors\Read XY Graph ref.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B952CBDE6750339A56F41017B7956DCA</GUID>
+      <GUID>AAF33D40D8AACDE81220E9F94B20CF34</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -463,7 +465,7 @@
         <Path>..\src\API\XY Graph to Intensity Graph.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C892EF4349F4F07A6B7EF125CB018531</GUID>
+      <GUID>1D4E804574174D6E18DB05D35DA0ECE4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -526,7 +528,7 @@
         <Path>..\src\Histogram\Intensity Graph Histogram Control.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E417A926424C6B9FBF803361AB922009</GUID>
+      <GUID>18CBDD9889EB207099D480C15B81138B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -855,7 +857,7 @@
         <Path>..\src\Intensity Graph\Set Intensity Graph Cursor.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DCE6A57B237620FAA238CD571D6CEE5A</GUID>
+      <GUID>A41D0C8B7493FBC7DB8C7570C81725E5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -960,7 +962,7 @@
         <Path>..\src\subVIs\Variant to XY-Data.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F55B556898207FC7A75A773C95E1EC16</GUID>
+      <GUID>9ECBCDA69F13059AC99CAE20EBBAE302</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1233,7 +1235,7 @@
         <Path>..\src\XY Graph\Set XY Graph Plot Colors.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CEA803D83A60949A4A0DFFA4D6153C98</GUID>
+      <GUID>51F09D15BD2C8C693C27E4924D047A6A</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -1310,7 +1312,7 @@
         <Path>..\src\Typedefs\Histogram--slider.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0BBF8CD626DEFDE6D77617A4E8E99B45</GUID>
+      <GUID>C8587A31C270474920F2A0B34058ADB0</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
