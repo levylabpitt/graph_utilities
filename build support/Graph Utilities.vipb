@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2017-05-22 22:25:33" Modified_Date="2021-03-10 18:17:36" Creator="Patrick Irvin" Comments="" ID="294de777c831ca48f9f894b9139a920b">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2017-05-22 22:25:33" Modified_Date="2021-03-15 18:06:04" Creator="Patrick Irvin" Comments="" ID="547a915a16ba12332cf32f90d5eed063">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_graph_utilities</Package_File_Name>
-    <Library_Version>2.1.3.6</Library_Version>
+    <Library_Version>2.1.4.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -36,11 +36,9 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[2.1.3]
-- Change behavior of Array to Offset and Multiplier. Now calculates multiplier by (x[N-1] - x[0])/(N-1), where N is the length of the array.
-- XY Graph to Intensity Graph now calls XY to 2D from XY_utilities package
-- Make VIs preallocated reentrant, remove automatic error handling, remove debugging
-- Add documentation</Release_Notes>
+      <Release_Notes>[2.1.4]
+- Change Access scope and name of Create Custom Color Scale
+- Add other color scale presets (still being developed)</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -297,7 +295,21 @@
         <Path>..\src\subVIs</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A25B5800D2A00706A2A078FCC2F923EF</GUID>
+      <Items_Data>
+        <Type>Sub Palette</Type>
+        <Sub_Palette_Index>7</Sub_Palette_Index>
+        <NameSub_Menu_Name>Examples</NameSub_Menu_Name>
+        <Short_Name>Examples</Short_Name>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>3</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000543002900000012000000020000000D00FFFFFF000100000000000A0000000800000000002000200028000002BF0000028B000000010007002000180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFFFFFFFF000000000000FFFFFF000000000000FFFFFF000000000000FFFFFF000000000000FFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFF000000000000000000000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFF000000000000000000FFFFFF000000000000FFFFFF000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000000000FFFFFF000000FFFFFF000000FFFFFFFFFFFF000000000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000000000FFFFFF000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000001C000040194DB6447C95554ED89556483D4D5426D00000001002900000012000000020000000D00CCCCFF000100000000000A00000008001900000020002000280000022C000001F8001900040020001C00180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFF6C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C00006C0000FFFFFF6C00006C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FF9AAA26FF92AA55FF9ABA76FF939255FFD91356FF000000FF</Icon>
+        <Path>..\src\Examples</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>1FB9A6DA876EFCAA95102E972686C0FD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -374,7 +386,7 @@
         <Path>..\src\Accessors\Read XY Graph ref.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AAF33D40D8AACDE81220E9F94B20CF34</GUID>
+      <GUID>42EA2E861071CA134B4A565534A5A3B9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -465,7 +477,21 @@
         <Path>..\src\API\XY Graph to Intensity Graph.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1D4E804574174D6E18DB05D35DA0ECE4</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Create Custom Color Table.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\API\Create Custom Color Table.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>66BF7FC8D735525866B8B70F2419A7C3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -528,7 +554,7 @@
         <Path>..\src\Histogram\Intensity Graph Histogram Control.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>18CBDD9889EB207099D480C15B81138B</GUID>
+      <GUID>FB3EBCDE01FAE7E0EFB7FD72BEE5304C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -857,7 +883,7 @@
         <Path>..\src\Intensity Graph\Set Intensity Graph Cursor.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A41D0C8B7493FBC7DB8C7570C81725E5</GUID>
+      <GUID>43B6D42FE73F32E792D13669495047D6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -890,34 +916,6 @@
         </Position>
         <Icon>00000000</Icon>
         <Path>..\src\subVIs\Array to Offset and Multiplier.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Create Color Table.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\src\subVIs\Create Color Table.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Normalized Gaussian.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\src\subVIs\Normalized Gaussian.vi</Path>
         <VI_Title/>
       </Items_Data>
       <Items_Data>
@@ -962,7 +960,35 @@
         <Path>..\src\subVIs\Variant to XY-Data.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9ECBCDA69F13059AC99CAE20EBBAE302</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Normalized Gaussian.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\subVIs\Normalized Gaussian.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>CETperceptual_ColorTables.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\subVIs\CETperceptual_ColorTables.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>05826763A32C4D63A80AF59AC2CCA522</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1235,7 +1261,84 @@
         <Path>..\src\XY Graph\Set XY Graph Plot Colors.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>51F09D15BD2C8C693C27E4924D047A6A</GUID>
+      <GUID>23533530EA4391AE66853874EE6F1212</GUID>
+    </Functions_Palette_Data>
+    <Functions_Palette_Data>
+      <Parent_Palette_Index>0</Parent_Palette_Index>
+      <Name>Examples</Name>
+      <View_Format>Icons</View_Format>
+      <Size>
+        <Height_Row>1</Height_Row>
+        <Width_Col.>4</Width_Col.>
+      </Size>
+      <_256_Color_Icon>00000543002900000012000000020000000D00FFFFFF000100000000000A0000000800000000002000200028000002BF0000028B000000010007002000180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFFFFFFFF000000000000FFFFFF000000000000FFFFFF000000000000FFFFFF000000000000FFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFF000000000000000000000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFF000000000000000000FFFFFF000000000000FFFFFF000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000000000FFFFFFFFFFFF000000FFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000000000000000FFFFFF000000FFFFFF000000FFFFFFFFFFFF000000000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000000000FFFFFF000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00000001C000040194DB6447C95554ED89556483D4D5426D00000001002900000012000000020000000D00CCCCFF000100000000000A00000008001900000020002000280000022C000001F8001900040020001C00180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFF6C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C00006C0000FFFFFF6C00006C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FF9AAA26FF92AA55FF9ABA76FF939255FFD91356FF000000FF</_256_Color_Icon>
+      <BW_Color_Icon>00000000</BW_Color_Icon>
+      <Help_Info>
+        <Help_Tag/>
+        <Help_File_Path/>
+      </Help_Info>
+      <Description/>
+      <Synchronization_Info>
+        <Synchronyze_with_Directory>true</Synchronyze_with_Directory>
+        <Synchronize_Directory_Path>Examples</Synchronize_Directory_Path>
+      </Synchronization_Info>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Color Image.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\Examples\Color Image.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Histogram.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\Examples\Histogram.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Intensity Graph to XY Graph.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\Examples\Intensity Graph to XY Graph.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Linecut.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\Examples\Linecut.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>15EA8C44C505C510E1A554E6CEE7445C</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -1312,7 +1415,7 @@
         <Path>..\src\Typedefs\Histogram--slider.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C8587A31C270474920F2A0B34058ADB0</GUID>
+      <GUID>BF7EE0B811CB93BE2E7A48AF2A163C9B</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
