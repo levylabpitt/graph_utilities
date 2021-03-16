@@ -20,7 +20,7 @@
 			<Item Name="Histogram.vi" Type="VI" URL="../Examples/Histogram.vi"/>
 			<Item Name="Intensity Graph to XY Graph.vi" Type="VI" URL="../Examples/Intensity Graph to XY Graph.vi"/>
 			<Item Name="Linecut.vi" Type="VI" URL="../Examples/Linecut.vi"/>
-			<Item Name="Color Image.vi" Type="VI" URL="../Examples/Color Image.vi"/>
+			<Item Name="Image Color Table.vi" Type="VI" URL="../Examples/Image Color Table.vi"/>
 		</Item>
 		<Item Name="graph_utilities.lvclass" Type="LVClass" URL="../graph_utilities.lvclass"/>
 		<Item Name="Graph Utilities Tree.vi" Type="VI" URL="../Graph Utilities Tree.vi"/>
