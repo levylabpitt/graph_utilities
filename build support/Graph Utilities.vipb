@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2017-05-22 22:25:33" Modified_Date="2021-03-15 23:16:27" Creator="Patrick Irvin" Comments="" ID="f400997ca588f593ae4d143d380f97c5">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2017-05-22 22:25:33" Modified_Date="2021-03-15 23:39:33" Creator="Patrick Irvin" Comments="" ID="f141a7ded9c78424d16b153297a7b3e7">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_graph_utilities</Package_File_Name>
-    <Library_Version>2.1.5.8</Library_Version>
+    <Library_Version>2.1.6.10</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -36,10 +36,8 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[2.1.5]
-- Add API method "Choose Color Table"
-- Default Color Table is now Viridis
-- Change Access scope and name of Create Custom Color Scale</Release_Notes>
+      <Release_Notes>[2.1.6]
+- Add Number control to "Choose Color Table"</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -126,6 +124,9 @@
       </Namespace_Overrides>
       <Exclusions>
         <Path>Graph Utilities.lvproj</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Antidoc-Output</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath/>
@@ -310,7 +311,7 @@
         <Path>..\src\Utilities</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E94ECE74ABEB820D85D4F247A85A3022</GUID>
+      <GUID>FF86C7FC05308B4046D2430B8330D39F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -387,7 +388,7 @@
         <Path>..\src\Accessors\Read XY Graph ref.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D60F8B729B41138765FE304FB9307366</GUID>
+      <GUID>36C68A0F1221968834B4394C8CEE5D40</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -492,7 +493,7 @@
         <Path>..\src\API\Choose Color Table.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7039614902560C2797F2ED0920527D65</GUID>
+      <GUID>ED5DA0F7C9D5D0B39B8AE3A31E8F73E0</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -555,7 +556,7 @@
         <Path>..\src\Histogram\Intensity Graph Histogram Control.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5554061B5113C0D27AB5E8CF5648A03D</GUID>
+      <GUID>C37F0815C119CD74D642DDE7BCDD4F82</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -884,7 +885,7 @@
         <Path>..\src\Intensity Graph\Set Intensity Graph Cursor.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>108AFCA76CE633F88177D3491D5B787D</GUID>
+      <GUID>BE899014ABF2A7712726FC69BE8A0711</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1157,7 +1158,7 @@
         <Path>..\src\XY Graph\Set XY Graph Plot Colors.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>43F837E01208A4834359C53CEF7799C4</GUID>
+      <GUID>B17CD297F458854075D1A86D2A3494D5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1178,34 +1179,6 @@
         <Synchronyze_with_Directory>true</Synchronyze_with_Directory>
         <Synchronize_Directory_Path>Examples</Synchronize_Directory_Path>
       </Synchronization_Info>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Color Image.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\src\Examples\Color Image.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Histogram.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\src\Examples\Histogram.vi</Path>
-        <VI_Title/>
-      </Items_Data>
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
@@ -1234,7 +1207,35 @@
         <Path>..\src\Examples\Linecut.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>397A6C25C2E9C192454814536C2D4F67</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Histogram.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\Examples\Histogram.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Image Color Table.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\Examples\Image Color Table.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>907AE0C630CC2C80EDB048B591982674</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1311,7 +1312,7 @@
         <Path>..\src\Utilities\Variant to XY-Data.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>25AD1FC44F10C43970D34B0D949017BE</GUID>
+      <GUID>44BA6B4ECEDF687237DB08FFCAB7A9CA</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -1388,7 +1389,7 @@
         <Path>..\src\Typedefs\Histogram--slider.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C6067598E338616A51464092C088F6AB</GUID>
+      <GUID>3029875355C285E4E828BBF30AF36C0C</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
