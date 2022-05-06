@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2017-05-22 22:25:33" Modified_Date="2022-05-06 14:01:49" Creator="Patrick Irvin" Comments="" ID="0b40e43c405e6db1654c333394ff5aa2">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2017-05-22 22:25:33" Modified_Date="2022-05-06 14:11:36" Creator="Patrick Irvin" Comments="" ID="409eeea2e34b627385c4c3ebc3dc98db">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_graph_utilities</Package_File_Name>
-    <Library_Version>2.1.8.1</Library_Version>
+    <Library_Version>2.1.8.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -312,7 +312,7 @@
         <Path>..\src\Utilities</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>647256060F4AC0E54169AAEB6AACD4FB</GUID>
+      <GUID>4794FB227075769A60269E460552A976</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -389,7 +389,7 @@
         <Path>..\src\Accessors\Read XY Graph ref.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>11EA5187ECAF076177B32DF93B5C5840</GUID>
+      <GUID>522B7CFC3619819E907A16C51C96E181</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -494,7 +494,7 @@
         <Path>..\src\API\Choose Color Table.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>ADDED714187E3407E93CE200C735F73C</GUID>
+      <GUID>8838887D9CD4DB4E18476E7179263596</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -557,7 +557,7 @@
         <Path>..\src\Histogram\Intensity Graph Histogram Control.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F592B3422BFAD21C876316FC6005E62A</GUID>
+      <GUID>DE9508197FA388870E50269C600DF4A3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -886,7 +886,7 @@
         <Path>..\src\Intensity Graph\Set Intensity Graph Cursor.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8430F4CDAD9C29382616BB061AD6D434</GUID>
+      <GUID>1AB7B83E7F7886D00C0E58924E71B68F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1159,7 +1159,7 @@
         <Path>..\src\XY Graph\Set XY Graph Plot Colors.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A17A0DBC05DC8B0B02BE0AE27EEC7D33</GUID>
+      <GUID>403A2EB5203CCB5641D6EEEFDF8AE529</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1236,7 +1236,7 @@
         <Path>..\src\Examples\Image Color Table.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>58A2930F6514F7746704E60A70F0E785</GUID>
+      <GUID>55C2C7CD7DE83617517E06ABA4BCF7F7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1313,7 +1313,7 @@
         <Path>..\src\Utilities\Variant to XY-Data.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9D75CD2DA164E1ADF0C80A62810C7D40</GUID>
+      <GUID>AB1112F3D75ED3F753C3C2231635401D</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -1390,7 +1390,7 @@
         <Path>..\src\Typedefs\Histogram--slider.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>56E58C683B82DAF29C77F199C941E610</GUID>
+      <GUID>CA732EBCF1D482E0DB5047CFDBA5198F</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
