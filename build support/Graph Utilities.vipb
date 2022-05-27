@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2017-05-22 22:25:33" Modified_Date="2022-05-06 14:11:36" Creator="Patrick Irvin" Comments="" ID="409eeea2e34b627385c4c3ebc3dc98db">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2017-05-22 22:25:33" Modified_Date="2022-05-27 10:15:23" Creator="Patrick Irvin" Comments="" ID="53d719bc8271d0d32ef932b0ae3bb03b">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_graph_utilities</Package_File_Name>
-    <Library_Version>2.1.8.2</Library_Version>
+    <Library_Version>2.1.8.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -18,8 +18,10 @@
   <Advanced_Settings>
     <Package_Dependencies>
       <External_Dependencies>levylab_lib_xy_utilities &gt;= 1.4.0.17</External_Dependencies>
+      <External_Dependencies>mgi_lib_1d_array &gt;= 1.0.2.3</External_Dependencies>
       <Additional_External_Dependencies>jki_lib_state_machine &gt;=2018.0.7.45</Additional_External_Dependencies>
       <Direct_Dependencies>levylab_lib_xy_utilities-1.4.0.17</Direct_Dependencies>
+      <Direct_Dependencies>mgi_lib_1d_array-1.0.2.3</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -38,7 +40,8 @@
       <URL/>
       <Release_Notes>[2.1.8]
 - Update Horizontal and Vertical Linecuts to have step averaging option
-- Updated to LV2019</Release_Notes>
+- Updated to LV2019
+- Update package dependencies</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -312,7 +315,7 @@
         <Path>..\src\Utilities</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4794FB227075769A60269E460552A976</GUID>
+      <GUID>645187A3C7CED6CFBD723EDD1481501E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -389,7 +392,7 @@
         <Path>..\src\Accessors\Read XY Graph ref.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>522B7CFC3619819E907A16C51C96E181</GUID>
+      <GUID>2BFB3C67C8948B4B973E4F407A108EEB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -494,7 +497,7 @@
         <Path>..\src\API\Choose Color Table.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8838887D9CD4DB4E18476E7179263596</GUID>
+      <GUID>137C4664A4CFB5917931F5C4B554FC68</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -557,7 +560,7 @@
         <Path>..\src\Histogram\Intensity Graph Histogram Control.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DE9508197FA388870E50269C600DF4A3</GUID>
+      <GUID>0A250AAFA1F9947F93AB2234EB98C2CA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -886,7 +889,7 @@
         <Path>..\src\Intensity Graph\Set Intensity Graph Cursor.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1AB7B83E7F7886D00C0E58924E71B68F</GUID>
+      <GUID>E3DEF29B085DF209254ED8AED131781A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1159,7 +1162,7 @@
         <Path>..\src\XY Graph\Set XY Graph Plot Colors.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>403A2EB5203CCB5641D6EEEFDF8AE529</GUID>
+      <GUID>3BC8E1C34C7E8B7323329F9071026A3F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1236,7 +1239,7 @@
         <Path>..\src\Examples\Image Color Table.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>55C2C7CD7DE83617517E06ABA4BCF7F7</GUID>
+      <GUID>3B092CB6034876459F0069B88D08B33A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1313,7 +1316,7 @@
         <Path>..\src\Utilities\Variant to XY-Data.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AB1112F3D75ED3F753C3C2231635401D</GUID>
+      <GUID>B7B5A1CBDE15164CB4CF08820D329597</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -1390,7 +1393,7 @@
         <Path>..\src\Typedefs\Histogram--slider.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CA732EBCF1D482E0DB5047CFDBA5198F</GUID>
+      <GUID>0425528D21D9EEBDBAFE5F95A097DD74</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
