@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2017-05-22 22:25:33" Modified_Date="2022-07-06 12:58:01" Creator="Patrick Irvin" Comments="" ID="71d7cd14466fb3729b022204234b34fd">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2017-05-22 22:25:33" Modified_Date="2022-07-06 13:17:16" Creator="Patrick Irvin" Comments="" ID="3364a4233832f780082457f70d51dac9">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_graph_utilities</Package_File_Name>
-    <Library_Version>2.1.10.2</Library_Version>
+    <Library_Version>2.1.10.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -212,21 +212,7 @@
       </Synchronization_Info>
       <Items_Data>
         <Type>Sub Palette</Type>
-        <Sub_Palette_Index>2</Sub_Palette_Index>
-        <NameSub_Menu_Name>API</NameSub_Menu_Name>
-        <Short_Name>API</Short_Name>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000367002900000012000000020000000D00FFFFFF000100000000000A0000000800000000002000200028000000E3000000BD0000000C0007001500180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000000000FFFFFFFFFFFF000000000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000000000000000000000FFFFFF000000000000FFFFFFFFFFFF000000000000FFFFFF000000FFFFFF000000FFFFFFFFFFFFFFFFFF000000000000FFFFFF000000FFFFFF000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF007F4CFFAAFFECFFA8FFA8FF007F002900000012000000020000000D00CCCCFF000100000000000A00000008001900000020002000280000022C000001F8001900040020001C00180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFF6C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C00006C0000FFFFFF6C00006C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FF9AAA26FF92AA55FF9ABA76FF939255FFD91356FF000000FF</Icon>
-        <Path>..\src\API</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Sub Palette</Type>
-        <Sub_Palette_Index>5</Sub_Palette_Index>
+        <Sub_Palette_Index>4</Sub_Palette_Index>
         <NameSub_Menu_Name>Intensity Graph</NameSub_Menu_Name>
         <Short_Name>Intensity Graph</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
@@ -240,7 +226,7 @@
       </Items_Data>
       <Items_Data>
         <Type>Sub Palette</Type>
-        <Sub_Palette_Index>4</Sub_Palette_Index>
+        <Sub_Palette_Index>3</Sub_Palette_Index>
         <NameSub_Menu_Name>Histogram</NameSub_Menu_Name>
         <Short_Name>Histogram</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
@@ -254,7 +240,7 @@
       </Items_Data>
       <Items_Data>
         <Type>Sub Palette</Type>
-        <Sub_Palette_Index>8</Sub_Palette_Index>
+        <Sub_Palette_Index>7</Sub_Palette_Index>
         <NameSub_Menu_Name>XY Graph</NameSub_Menu_Name>
         <Short_Name>XY Graph</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
@@ -282,7 +268,7 @@
       </Items_Data>
       <Items_Data>
         <Type>Sub Palette</Type>
-        <Sub_Palette_Index>7</Sub_Palette_Index>
+        <Sub_Palette_Index>6</Sub_Palette_Index>
         <NameSub_Menu_Name>Utilities</NameSub_Menu_Name>
         <Short_Name>Utilities</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
@@ -296,7 +282,7 @@
       </Items_Data>
       <Items_Data>
         <Type>Sub Palette</Type>
-        <Sub_Palette_Index>6</Sub_Palette_Index>
+        <Sub_Palette_Index>5</Sub_Palette_Index>
         <NameSub_Menu_Name>subVIs</NameSub_Menu_Name>
         <Short_Name>subVIs</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
@@ -310,7 +296,7 @@
       </Items_Data>
       <Items_Data>
         <Type>Sub Palette</Type>
-        <Sub_Palette_Index>3</Sub_Palette_Index>
+        <Sub_Palette_Index>2</Sub_Palette_Index>
         <NameSub_Menu_Name>Examples</NameSub_Menu_Name>
         <Short_Name>Examples</Short_Name>
         <is_Merge_VI>false</is_Merge_VI>
@@ -322,7 +308,21 @@
         <Path>..\src\Examples</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>891ECE97EC90ABA41486E04EC17115A4</GUID>
+      <Items_Data>
+        <Type>Sub Palette</Type>
+        <Sub_Palette_Index>8</Sub_Palette_Index>
+        <NameSub_Menu_Name>API</NameSub_Menu_Name>
+        <Short_Name>API</Short_Name>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000367002900000012000000020000000D00FFFFFF000100000000000A0000000800000000002000200028000000E3000000BD0000000C0007001500180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000000000FFFFFFFFFFFF000000000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000000000000000000000FFFFFF000000000000FFFFFFFFFFFF000000000000FFFFFF000000FFFFFF000000FFFFFFFFFFFFFFFFFF000000000000FFFFFF000000FFFFFF000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF007F4CFFAAFFECFFA8FFA8FF007F002900000012000000020000000D00CCCCFF000100000000000A00000008001900000020002000280000022C000001F8001900040020001C00180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFF6C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C00006C0000FFFFFF6C00006C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FF9AAA26FF92AA55FF9ABA76FF939255FFD91356FF000000FF</Icon>
+        <Path>..\src\API</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>F7CE844C1D1CC67373643981E4410804</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -399,182 +399,7 @@
         <Path>..\src\Accessors\Write XY Graph ref.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F1366328B255F62ACB54995F26B83F10</GUID>
-    </Functions_Palette_Data>
-    <Functions_Palette_Data>
-      <Parent_Palette_Index>0</Parent_Palette_Index>
-      <Name>API</Name>
-      <View_Format>Icons</View_Format>
-      <Size>
-        <Height_Row>2</Height_Row>
-        <Width_Col.>7</Width_Col.>
-      </Size>
-      <_256_Color_Icon>00000367002900000012000000020000000D00FFFFFF000100000000000A0000000800000000002000200028000000E3000000BD0000000C0007001500180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000000000FFFFFFFFFFFF000000000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000000000000000000000FFFFFF000000000000FFFFFFFFFFFF000000000000FFFFFF000000FFFFFF000000FFFFFFFFFFFFFFFFFF000000000000FFFFFF000000FFFFFF000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF007F4CFFAAFFECFFA8FFA8FF007F002900000012000000020000000D00CCCCFF000100000000000A00000008001900000020002000280000022C000001F8001900040020001C00180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFF6C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C00006C0000FFFFFF6C00006C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FF9AAA26FF92AA55FF9ABA76FF939255FFD91356FF000000FF</_256_Color_Icon>
-      <BW_Color_Icon>00000000</BW_Color_Icon>
-      <Help_Info>
-        <Help_Tag/>
-        <Help_File_Path/>
-      </Help_Info>
-      <Description/>
-      <Synchronization_Info>
-        <Synchronyze_with_Directory>false</Synchronyze_with_Directory>
-        <Synchronize_Directory_Path>API</Synchronize_Directory_Path>
-      </Synchronization_Info>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Intensity Graph to XY Graph (Horizontal) (by val).vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\src\API\Intensity Graph to XY Graph (Horizontal) (by val).vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Intensity Graph to XY Graph (Vertical) (by ref).vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\src\API\Intensity Graph to XY Graph (Vertical) (by ref).vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Intensity Graph to XY Graph (Vertical) (by val).vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>5</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\src\API\Intensity Graph to XY Graph (Vertical) (by val).vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>XY Graph to Intensity Graph (by ref).vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>6</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\src\API\XY Graph to Intensity Graph (by ref).vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>XY Graph to Intensity Graph (by val).vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>7</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\src\API\XY Graph to Intensity Graph (by val).vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Intensity Graph to XY Graph (Horizontal) (by ref).vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\src\API\Intensity Graph to XY Graph (Horizontal) (by ref).vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Choose Color Table.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\src\API\Choose Color Table.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Intensity Graph Linecut (Horizontal) (by ref).vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>2</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\src\API\Intensity Graph Linecut (Horizontal) (by ref).vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Intensity Graph Linecut (Horizontal) (by val).vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>3</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\src\API\Intensity Graph Linecut (Horizontal) (by val).vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Intensity Graph Linecut (Vertical) (by ref).vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\src\API\Intensity Graph Linecut (Vertical) (by ref).vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Intensity Graph Linecut (Vertical) (by val).vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>5</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\src\API\Intensity Graph Linecut (Vertical) (by val).vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <GUID>41F7A0B93529E981C2810EB90413308C</GUID>
+      <GUID>992B50ACAB51F928C4C429CB96EDE639</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -665,7 +490,7 @@
         <Path>..\src\Examples\Linecut.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BA5E350F278F99487D1858F9CBFAFAAF</GUID>
+      <GUID>37363D73382096C0AEB2A39EEEB3F453</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -728,7 +553,7 @@
         <Path>..\src\Histogram\Intensity Graph Histogram Control.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>984115BEA00F23654A1BF8D0F8A8D7AB</GUID>
+      <GUID>3AA95957E05E0651A520E5BB4D0EA780</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1029,7 +854,7 @@
         <Path>..\src\Intensity Graph\Set Intensity Graph Z Range.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0CB659E84A427CEE31FD8CFFBCB4AA9A</GUID>
+      <GUID>6BD6D4DAC94EB78220B5A9621AD2159B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1120,7 +945,7 @@
         <Path>..\src\subVIs\Step Average.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3091B803F8081CF9399B24BB5F5DEA73</GUID>
+      <GUID>96AA3FF710FB6CC197BEBA16DFD3CF3D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1197,7 +1022,7 @@
         <Path>..\src\Utilities\Variant to XY-Data.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>56BEFB80AFDDE0CC11EEBFD843EC8A47</GUID>
+      <GUID>227DF66832F94C576F6D596EC2CBE487</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1470,7 +1295,182 @@
         <Path>..\src\XY Graph\Set XY Graph Y Range.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>532DD7BAC0312F832E1FDC047FBB51B6</GUID>
+      <GUID>0C97EA60D052C6FE4C0948E87D3256B6</GUID>
+    </Functions_Palette_Data>
+    <Functions_Palette_Data>
+      <Parent_Palette_Index>0</Parent_Palette_Index>
+      <Name>API</Name>
+      <View_Format>Icons</View_Format>
+      <Size>
+        <Height_Row>3</Height_Row>
+        <Width_Col.>5</Width_Col.>
+      </Size>
+      <_256_Color_Icon>00000367002900000012000000020000000D00FFFFFF000100000000000A0000000800000000002000200028000000E3000000BD0000000C0007001500180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFF000000000000FFFFFFFFFFFF000000000000FFFFFF000000FFFFFF000000FFFFFF000000FFFFFF000000000000000000000000FFFFFF000000000000FFFFFFFFFFFF000000000000FFFFFF000000FFFFFF000000FFFFFFFFFFFFFFFFFF000000000000FFFFFF000000FFFFFF000000FFFFFFFFFFFFFFFFFF000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF007F4CFFAAFFECFFA8FFA8FF007F002900000012000000020000000D00CCCCFF000100000000000A00000008001900000020002000280000022C000001F8001900040020001C00180000000000FFFFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFF6C00006C0000FFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C00006C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFF6C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C00006C0000FFFFFF6C00006C0000FFFFFFFFFFFF6C0000FFFFFFFFFFFFFFFFFF6C0000FFFFFFFFFFFF6C00006C0000FFFFFF6C0000FFFFFF6C0000FFFFFF6C00006C0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000FF9AAA26FF92AA55FF9ABA76FF939255FFD91356FF000000FF</_256_Color_Icon>
+      <BW_Color_Icon>00000000</BW_Color_Icon>
+      <Help_Info>
+        <Help_Tag/>
+        <Help_File_Path/>
+      </Help_Info>
+      <Description/>
+      <Synchronization_Info>
+        <Synchronyze_with_Directory>true</Synchronyze_with_Directory>
+        <Synchronize_Directory_Path>API</Synchronize_Directory_Path>
+      </Synchronization_Info>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Choose Color Table.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\API\Choose Color Table.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Intensity Graph Linecut (Horizontal) (by val).vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\API\Intensity Graph Linecut (Horizontal) (by val).vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Intensity Graph Linecut (Horizontal).vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\API\Intensity Graph Linecut (Horizontal).vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Intensity Graph Linecut (Vertical) (by val).vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\API\Intensity Graph Linecut (Vertical) (by val).vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Intensity Graph Linecut (Vertical).vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>5</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\API\Intensity Graph Linecut (Vertical).vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>XY Graph to Intensity Graph.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>3</Row>
+          <Column>5</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\API\XY Graph to Intensity Graph.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>XY Graph to Intensity Graph (by val).vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>3</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\API\XY Graph to Intensity Graph (by val).vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Intensity Graph to XY Graph (Vertical).vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>5</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\API\Intensity Graph to XY Graph (Vertical).vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Intensity Graph to XY Graph (Vertical) (by val).vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\API\Intensity Graph to XY Graph (Vertical) (by val).vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Intensity Graph to XY Graph (Horizontal).vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\API\Intensity Graph to XY Graph (Horizontal).vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Intensity Graph to XY Graph (Horizontal) (by val).vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>2</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\API\Intensity Graph to XY Graph (Horizontal) (by val).vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>078828DFCC19EB7CD2FFF8F619BC1A8D</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -1547,7 +1547,7 @@
         <Path>..\src\Typedefs\Histogram--slider.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7BE5621559DDD5263FE03BC3FEC8E9D4</GUID>
+      <GUID>CB2C793E232986C5725A9649582D630D</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

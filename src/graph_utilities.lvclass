@@ -125,7 +125,7 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
 		</Item>
-		<Item Name="Intensity Graph Linecut (Horizontal) (by ref).vi" Type="VI" URL="../API/Intensity Graph Linecut (Horizontal) (by ref).vi">
+		<Item Name="Intensity Graph Linecut (Horizontal).vi" Type="VI" URL="../API/Intensity Graph Linecut (Horizontal).vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;W!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$:!=!!?!!!:&amp;W&gt;S98"I8X6U;7RJ&gt;'FF=SZM&gt;G.M98.T!".H=G&amp;Q;&amp;^V&gt;'FM;82J:8-A&lt;X6U!#&gt;!&amp;A!#"&amp;.U:8!)2W&amp;V=X.J97Y!%%&amp;W:8*B:WFO:S".:82I&lt;W1!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!'5!+!"*X;72U;#!I;'^S;8JP&lt;H2B&lt;#E!!$:!=!!?!!!:&amp;W&gt;S98"I8X6U;7RJ&gt;'FF=SZM&gt;G.M98.T!"*H=G&amp;Q;&amp;^V&gt;'FM;82J:8-A;7Y!!'%!]!!-!!-!"!!%!!5!"!!%!!9!"!!(!!A!"!!*!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!#!!!!!!!!!!+!!!!#A!!!!!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!I!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
@@ -143,7 +143,7 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">269230096</Property>
 		</Item>
-		<Item Name="Intensity Graph Linecut (Vertical) (by ref).vi" Type="VI" URL="../API/Intensity Graph Linecut (Vertical) (by ref).vi">
+		<Item Name="Intensity Graph Linecut (Vertical).vi" Type="VI" URL="../API/Intensity Graph Linecut (Vertical).vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;U!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$:!=!!?!!!:&amp;W&gt;S98"I8X6U;7RJ&gt;'FF=SZM&gt;G.M98.T!".H=G&amp;Q;&amp;^V&gt;'FM;82J:8-A&lt;X6U!#&gt;!&amp;A!#"&amp;.U:8!)2W&amp;V=X.J97Y!%%&amp;W:8*B:WFO:S".:82I&lt;W1!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!&amp;U!+!""X;72U;#!I&gt;G6S&gt;'FD97QJ!!!W1(!!(A!!'2&gt;H=G&amp;Q;&amp;^V&gt;'FM;82J:8-O&lt;(:D&lt;'&amp;T=Q!3:X*B='B@&gt;82J&lt;'FU;76T)'FO!!"B!0!!$!!$!!1!"!!&amp;!!1!"!!'!!1!"Q!)!!1!#1-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!A!!!!!!!!!#A!!!!I!!!!!!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!+!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
@@ -153,15 +153,15 @@
 			<Property Name="NI.ClassItem.State" Type="Int">268967952</Property>
 		</Item>
 		<Item Name="Intensity Graph Linecut (Vertical) (by val).vi" Type="VI" URL="../API/Intensity Graph Linecut (Vertical) (by val).vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(N!!!!%Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!&gt;!#A!"?!!51%!!!@````]!"1&gt;9,7&amp;S=G&amp;Z!!&gt;!#A!"?1!51%!!!@````]!"Q&gt;:,7&amp;S=G&amp;Z!"*!5!!#!!9!#!&gt;973VE982B!"2!1!!"`````Q!*"VB:,72B&gt;'%!.E"Q!"Y!!"E8:X*B='B@&gt;82J&lt;'FU;76T,GRW9WRB=X-!%W&gt;S98"I8X6U;7RJ&gt;'FF=S"P&gt;81!*U!7!!)%5X2F=!B(986T=WFB&lt;A!118:F=G&amp;H;7ZH)%VF&gt;'BP:!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!81!I!%(&gt;J:(2I)#BW:8*U;7.B&lt;#E!!!5!#A!!'%"!!!,``````````Q!0"T*%)%2B&gt;'%!.E"Q!"Y!!"E8:X*B='B@&gt;82J&lt;'FU;76T,GRW9WRB=X-!%G&gt;S98"I8X6U;7RJ&gt;'FF=S"J&lt;A!!91$Q!!Q!!Q!%!!I!#Q!%!!1!$!!%!!U!$A!1!"%$!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!)!!!!!!!!!!I!!!!+!!!##!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!%A!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(N!!!!%Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!&gt;!#A!"?!!51%!!!@````]!"1&gt;9,7&amp;S=G&amp;Z!!&gt;!#A!"?1!51%!!!@````]!"Q&gt;:,7&amp;S=G&amp;Z!"*!5!!#!!9!#!&gt;973VE982B!"2!1!!"`````Q!*"VB:,72B&gt;'%!.E"Q!"Y!!"E8:X*B='B@&gt;82J&lt;'FU;76T,GRW9WRB=X-!%W&gt;S98"I8X6U;7RJ&gt;'FF=S"P&gt;81!*U!7!!)%5X2F=!B(986T=WFB&lt;A!118:F=G&amp;H;7ZH)%VF&gt;'BP:!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!81!I!%(&gt;J:(2I)#BW:8*U;7.B&lt;#E!!!5!#A!!'%"!!!,``````````Q!0"T*%)%2B&gt;'%!.E"Q!"Y!!"E8:X*B='B@&gt;82J&lt;'FU;76T,GRW9WRB=X-!%G&gt;S98"I8X6U;7RJ&gt;'FF=S"J&lt;A!!91$Q!!Q!!Q!%!!I!#Q!%!!1!$!!%!!U!$A!1!"%$!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!)!!!!!!!!!!I!!!!+!!!!#!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!%A!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">41943056</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">8658960</Property>
 		</Item>
-		<Item Name="Intensity Graph to XY Graph (Horizontal) (by ref).vi" Type="VI" URL="../API/Intensity Graph to XY Graph (Horizontal) (by ref).vi">
+		<Item Name="Intensity Graph to XY Graph (Horizontal).vi" Type="VI" URL="../API/Intensity Graph to XY Graph (Horizontal).vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%W!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$:!=!!?!!!:&amp;W&gt;S98"I8X6U;7RJ&gt;'FF=SZM&gt;G.M98.T!".H=G&amp;Q;&amp;^V&gt;'FM;82J:8-A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!.E"Q!"Y!!"E8:X*B='B@&gt;82J&lt;'FU;76T,GRW9WRB=X-!%G&gt;S98"I8X6U;7RJ&gt;'FF=S"J&lt;A!!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
@@ -179,7 +179,7 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">268967952</Property>
 		</Item>
-		<Item Name="Intensity Graph to XY Graph (Vertical) (by ref).vi" Type="VI" URL="../API/Intensity Graph to XY Graph (Vertical) (by ref).vi">
+		<Item Name="Intensity Graph to XY Graph (Vertical).vi" Type="VI" URL="../API/Intensity Graph to XY Graph (Vertical).vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%W!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$:!=!!?!!!:&amp;W&gt;S98"I8X6U;7RJ&gt;'FF=SZM&gt;G.M98.T!".H=G&amp;Q;&amp;^V&gt;'FM;82J:8-A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!.E"Q!"Y!!"E8:X*B='B@&gt;82J&lt;'FU;76T,GRW9WRB=X-!%G&gt;S98"I8X6U;7RJ&gt;'FF=S"J&lt;A!!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
@@ -197,7 +197,7 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">268967952</Property>
 		</Item>
-		<Item Name="XY Graph to Intensity Graph (by ref).vi" Type="VI" URL="../API/XY Graph to Intensity Graph (by ref).vi">
+		<Item Name="XY Graph to Intensity Graph.vi" Type="VI" URL="../API/XY Graph to Intensity Graph.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;H!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$:!=!!?!!!:&amp;W&gt;S98"I8X6U;7RJ&gt;'FF=SZM&gt;G.M98.T!".H=G&amp;Q;&amp;^V&gt;'FM;82J:8-A&lt;X6U!""!-0````](73"-97*F&lt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!V!#A!(4H6N:8*J9Q!51%!!!@````]!#!&gt;:)&amp;.D97RF!$:!=!!?!!!:&amp;W&gt;S98"I8X6U;7RJ&gt;'FF=SZM&gt;G.M98.T!"*H=G&amp;Q;&amp;^V&gt;'FM;82J:8-A;7Y!!'%!]!!-!!-!"!!%!!5!"!!%!!9!"!!(!!E!"!!+!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!#!!!!!!!!!!+!!!!#!!!!!!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!M!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
