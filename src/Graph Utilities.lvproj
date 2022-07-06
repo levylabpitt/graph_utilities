@@ -16,14 +16,14 @@
 		<Item Name="build support" Type="Folder">
 			<Item Name="Graph Utilities.vipb" Type="Document" URL="../../build support/Graph Utilities.vipb"/>
 		</Item>
-		<Item Name="Example" Type="Folder">
+		<Item Name="Examples" Type="Folder">
+			<Item Name="Graph Utilities Tree.vi" Type="VI" URL="../Examples/Graph Utilities Tree.vi"/>
 			<Item Name="Histogram.vi" Type="VI" URL="../Examples/Histogram.vi"/>
 			<Item Name="Intensity Graph to XY Graph.vi" Type="VI" URL="../Examples/Intensity Graph to XY Graph.vi"/>
 			<Item Name="Linecut.vi" Type="VI" URL="../Examples/Linecut.vi"/>
 			<Item Name="Image Color Table.vi" Type="VI" URL="../Examples/Image Color Table.vi"/>
 		</Item>
 		<Item Name="graph_utilities.lvclass" Type="LVClass" URL="../graph_utilities.lvclass"/>
-		<Item Name="Graph Utilities Tree.vi" Type="VI" URL="../Graph Utilities Tree.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="LVOffsetAndMultiplierTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVOffsetAndMultiplierTypeDef.ctl"/>
@@ -123,6 +123,7 @@
 				<Item Name="NI_AAL_SigProc.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AAL_SigProc.lvlib"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
+				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="xy_utilities.lvlib" Type="Library" URL="/&lt;userlib&gt;/LevyLab/XY Utilities/xy_utilities.lvlib"/>
