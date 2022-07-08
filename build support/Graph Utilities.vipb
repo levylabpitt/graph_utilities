@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2017-05-22 22:25:33" Modified_Date="2022-07-06 13:17:16" Creator="Patrick Irvin" Comments="" ID="3364a4233832f780082457f70d51dac9">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2017-05-22 22:25:33" Modified_Date="2022-07-08 14:00:46" Creator="Patrick Irvin" Comments="" ID="993f415b98097a71432c4bcf05d542a7">
   <Library_General_Settings>
     <Package_File_Name>levylab_lib_graph_utilities</Package_File_Name>
-    <Library_Version>2.1.10.3</Library_Version>
+    <Library_Version>2.1.10.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -40,7 +40,8 @@
       <URL/>
       <Release_Notes>[2.1.10]
 - Updated palette and examples install location
-- Updated package dependencies</Release_Notes>
+- Updated package dependencies
+- Change default intensity graph.ctl color table to viridis</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -322,7 +323,7 @@
         <Path>..\src\API</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F7CE844C1D1CC67373643981E4410804</GUID>
+      <GUID>1A5DC4C49FE6F96CED7F2CC48BC89782</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -399,7 +400,7 @@
         <Path>..\src\Accessors\Write XY Graph ref.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>992B50ACAB51F928C4C429CB96EDE639</GUID>
+      <GUID>BC1186DB6ACE1A1C97F6B3C08622FDF6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -490,7 +491,7 @@
         <Path>..\src\Examples\Linecut.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>37363D73382096C0AEB2A39EEEB3F453</GUID>
+      <GUID>8F565E33EF0DF31612871AD5BE1DEDA4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -553,7 +554,7 @@
         <Path>..\src\Histogram\Intensity Graph Histogram Control.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3AA95957E05E0651A520E5BB4D0EA780</GUID>
+      <GUID>643A2C95ED458C25A9407BF20DEF580A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -854,7 +855,7 @@
         <Path>..\src\Intensity Graph\Set Intensity Graph Z Range.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6BD6D4DAC94EB78220B5A9621AD2159B</GUID>
+      <GUID>1A055897429DFF7804D8C92AECD72B27</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -945,7 +946,7 @@
         <Path>..\src\subVIs\Step Average.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>96AA3FF710FB6CC197BEBA16DFD3CF3D</GUID>
+      <GUID>1FA2226470CC0B46AD80C885AF028150</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1022,7 +1023,7 @@
         <Path>..\src\Utilities\Variant to XY-Data.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>227DF66832F94C576F6D596EC2CBE487</GUID>
+      <GUID>A3EF2606FC6B8C7D734C1519748DBA58</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1295,7 +1296,7 @@
         <Path>..\src\XY Graph\Set XY Graph Y Range.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0C97EA60D052C6FE4C0948E87D3256B6</GUID>
+      <GUID>5D0750D5C006232B6A4CC7CBA098174C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1470,7 +1471,7 @@
         <Path>..\src\API\Intensity Graph to XY Graph (Horizontal) (by val).vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>078828DFCC19EB7CD2FFF8F619BC1A8D</GUID>
+      <GUID>C095A496B67E89EE712554B66E996B3B</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -1547,7 +1548,7 @@
         <Path>..\src\Typedefs\Histogram--slider.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CB2C793E232986C5725A9649582D630D</GUID>
+      <GUID>EAD0CC1E47324FA6FB6C2E7C80B33941</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
